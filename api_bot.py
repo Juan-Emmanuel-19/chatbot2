@@ -8,6 +8,9 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 from spellchecker import SpellChecker
 
+import tensorflow as tf
+from tensorflow.keras.models import load_model
+
 # --- 1. DESCARGAS Y PREPARACIÓN DE NLTK ---
 nltk.download('punkt_tab', quiet=True)
 nltk.download('punkt', quiet=True)
@@ -22,7 +25,7 @@ corrector = SpellChecker(language='es')
 intents = json.loads(open('intents.json', encoding='utf-8').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('modelo_mision_colombia.h5')
+model = load_model('chatbot_model.h5', compile=False)
 
 # --- 3. FUNCIONES DEL CEREBRO (NLP) ---
 def clean_up_sentence(sentence):
@@ -211,4 +214,4 @@ if __name__ == '__main__':
 #   super.initState();
 #   // Esta línea le dice a tu Python: "Oye, ya se abrió el chat, dame el mensaje inicial"
 #   enviarMensaje("iniciar_sesion"); 
-# }
+# } 
