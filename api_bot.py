@@ -83,10 +83,7 @@ def get_response(ints, intents_json):
     return result
 
 # --- 4. CONFIGURACIÓN DEL SERVIDOR WEB (FLASK API) ---
-app = Flask(__name__)
-
 print("App creada")
-
 app = Flask(__name__)
 
 @app.route("/")
