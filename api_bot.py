@@ -1,21 +1,24 @@
+print("===== INICIANDO api_bot.py =====")
+
 from flask import Flask, request, jsonify
-import random
-import json
-import pickle
-import numpy as np
-import nltk
-from nltk.stem import WordNetLemmatizer
-from spellchecker import SpellChecker
+
+print("Flask importado")
+
+import tensorflow as tf
+
+print("TensorFlow importado:", tf.__version__)
+
+app = Flask(__name__)
+
+print("App creada")
 
 import os
 import tensorflow as tf
 
-# Carga el modelo forzando a que no intente compilar/validar la estructura
+import os
 
-print("load_model:", load_model)
-
-
-
+print("Archivos en la carpeta:")
+print(os.listdir("."))
 
 # --- 1. DESCARGAS Y PREPARACIÓN DE NLTK ---
 nltk.download('punkt_tab', quiet=True)
