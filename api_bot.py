@@ -92,9 +92,19 @@ print("App creada")
 app = Flask(__name__)
 
 @app.route("/")
+
+
 def inicio():
     return "Aurora API funcionando correctamente"
 
+
+@app.route("/prueba", methods=["POST"])
+def prueba():
+    return jsonify({
+        "estado": "ok",
+        "mensaje": "La API recibe POST correctamente"
+    })
+    
 @app.route('/enviar_mensaje', methods=['POST'])
 def procesar_mensaje():
     # Recibimos el JSON desde la App en Flutter
