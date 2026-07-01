@@ -5,10 +5,14 @@ import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-from keras.models import load_model
 from spellchecker import SpellChecker
 
+import os
 import tensorflow as tf
+
+# Carga el modelo forzando a que no intente compilar/validar la estructura
+model = load_model('chatbot_model.h5', compile=False)
+
 from tensorflow.keras.models import load_model
 
 # --- 1. DESCARGAS Y PREPARACIÓN DE NLTK ---
@@ -25,7 +29,7 @@ corrector = SpellChecker(language='es')
 intents = json.loads(open('intents.json', encoding='utf-8').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('chatbot_model.h5', compile=False)
+model = tf.keras.models.load_model('chatbot_model.h5', compile=False)
 
 # --- 3. FUNCIONES DEL CEREBRO (NLP) ---
 def clean_up_sentence(sentence):

@@ -9,6 +9,9 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
+from keras import Input
+
+
 
 # Descargas de NLTK (con la corrección de _tab)
 nltk.download('punkt_tab')
@@ -75,7 +78,14 @@ train_y = np.array([i[1] for i in training])
 
 # 4. CREACIÓN DE LA RED NEURONAL (MODELO)
 model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+model = Sequential([
+    Input(shape=(len(train_x[0]),)),
+    Dense(128, activation="relu"),
+    Dropout(0.5),
+    Dense(64, activation="relu"),
+    Dropout(0.5),
+    Dense(len(train_y[0]), activation="softmax")
+])
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
@@ -92,5 +102,5 @@ print("Entrenando el modelo...")
 hist = model.fit(train_x, train_y, epochs=100, batch_size=5, verbose=1)
 
 # Guardamos el cerebro de la IA
-model.save('modelo_mision_colombia.h5', hist)
+model.save('chatbot_model.h5')
 print("¡Entrenamiento terminado y modelo guardado con éxito!")
