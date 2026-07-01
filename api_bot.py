@@ -173,36 +173,9 @@ def procesar_mensaje():
 
         }), 200
 
+
     try:
         
-@app.route('/enviar_mensaje', methods=['POST'])
-def procesar_mensaje():
-
-    # Recibimos el JSON desde Flutter
-    datos_entrantes = request.get_json(force=True, silent=True)
-
-    if not datos_entrantes or 'mensaje' not in datos_entrantes:
-        return jsonify({
-            "error": "Falta el parámetro 'mensaje' en el JSON"
-        }), 400
-
-    texto_usuario = datos_entrantes['mensaje']
-
-    # Mensaje inicial del chat
-    if texto_usuario == "iniciar_sesion":
-        return jsonify({
-            "nivel_riesgo": "neutro",
-            "fase": "inicio_o_cierre",
-            "respuesta_bot": "¡Hola! Soy Aurora. Antes de empezar, quiero recordarte que este es un espacio confidencial y seguro. Si en algún momento sientes que tu integridad corre peligro, recuerda que puedes presionar el botón de salida rápida. ¿Cómo te sientes hoy y en qué te puedo acompañar?",
-            "bloquear_entrada_texto": False,
-            "botones_activos": []
-        }), 200
-
-    try:
-
-        # ==========================
-        # IA
-        # ==========================
 
         ints = predict_class(texto_usuario, model)
         respuesta_ia = get_response(ints, intents)
@@ -363,32 +336,32 @@ if __name__ == "__main__":
 # EJEMPLO DE CONSUMO DESDE FLUTTER
 # ======================================================
 
-"""
-Future<void> enviarMensaje(String mensaje) async {
+#
+#Future<void> enviarMensaje(String mensaje) async {
 
-  final response = await http.post(
-    Uri.parse(
-      'https://TU-API.onrender.com/enviar_mensaje',
-    ),
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: jsonEncode({
-      "mensaje": mensaje
-    }),
-  );
+ # final response = await http.post(
+  #  Uri.parse(
+   #   'https://TU-API.onrender.com/enviar_mensaje',
+    #),
+    #headers: {
+    #  "Content-Type": "application/json"
+    #},
+    #body: jsonEncode({
+     # "mensaje": mensaje
+    #}),
+  #);
 
-  if (response.statusCode == 200) {
+  #if (response.statusCode == 200) {
 
-    final datos = jsonDecode(response.body);
+   # final datos = jsonDecode(response.body);
 
-    print(datos["respuesta_bot"]);
+    #print(datos["respuesta_bot"]);
 
-  } else {
+  #} else {
 
-    print(response.body);
+   # print(response.body);
 
-  }
+  #}
 
-}
-"""
+#}
+""
