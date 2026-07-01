@@ -1,19 +1,18 @@
-print("===== INICIANDO api_bot.py =====")
-
+print("ESTE ES MI API_BOT NUEVO")
 from flask import Flask, request, jsonify
-
-print("Flask importado")
-
-import tensorflow as tf
-
-print("TensorFlow importado:", tf.__version__)
-
-app = Flask(__name__)
-
-print("App creada")
+import random
+import json
+import pickle
+import numpy as np
+import nltk
+import api_bot
+print(api_bot.__file__)
+from nltk.stem import WordNetLemmatizer
+from spellchecker import SpellChecker
 
 import os
 import tensorflow as tf
+
 
 import os
 
@@ -21,10 +20,13 @@ print("Archivos en la carpeta:")
 print(os.listdir("."))
 
 # --- 1. DESCARGAS Y PREPARACIÓN DE NLTK ---
+
+
 nltk.download('punkt_tab', quiet=True)
 nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
+
 
 # --- 2. INICIALIZACIÓN DE LA IA ---
 lemmatizer = WordNetLemmatizer()
@@ -84,6 +86,14 @@ def get_response(ints, intents_json):
 
 # --- 4. CONFIGURACIÓN DEL SERVIDOR WEB (FLASK API) ---
 app = Flask(__name__)
+
+print("App creada")
+
+app = Flask(__name__)
+
+@app.route("/")
+def inicio():
+    return "Aurora API funcionando correctamente"
 
 @app.route('/enviar_mensaje', methods=['POST'])
 def procesar_mensaje():
