@@ -202,14 +202,12 @@ def procesar_mensaje():
         return jsonify(payload), 200
 
     except Exception as e:
-        print(f"❌ Error en el procesamiento del bot: {e}")
-        return jsonify({
-            "nivel_riesgo": "neutro",
-            "fase": "error_interno",
-            "respuesta_bot": "Lo siento, tuve un pequeño problema técnico al procesar tu mensaje. ¿Podrías intentarlo de nuevo?",
-            "bloquear_entrada_texto": False,
-            "botones_activos": []
-        }), 500
+    import traceback
+    traceback.print_exc()
+
+    return jsonify({
+        "error": str(e)
+    }), 500
 
 # Punto de arranque del servidor
 
