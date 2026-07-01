@@ -11,9 +11,11 @@ import os
 import tensorflow as tf
 
 # Carga el modelo forzando a que no intente compilar/validar la estructura
-model = load_model('chatbot_model.h5', compile=False)
 
-from tensorflow.keras.models import load_model
+print("load_model:", load_model)
+
+
+
 
 # --- 1. DESCARGAS Y PREPARACIÓN DE NLTK ---
 nltk.download('punkt_tab', quiet=True)
@@ -192,9 +194,10 @@ def procesar_mensaje():
         }), 500
 
 # Punto de arranque del servidor
-if __name__ == '__main__':
-    print("🚀 API de Aurora iniciada y lista para recibir mensajes")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
 
 # ---------------------------------------------------------
 # CÓDIGO DE RESPALDO PARA FLUTTER (DART)
