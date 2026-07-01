@@ -5,8 +5,6 @@ import json
 import pickle
 import numpy as np
 import nltk
-import api_bot
-print(api_bot.__file__)
 from nltk.stem import WordNetLemmatizer
 from spellchecker import SpellChecker
 
