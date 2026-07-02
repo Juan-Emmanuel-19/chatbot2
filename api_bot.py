@@ -102,7 +102,11 @@ def predict_class(sentence, model):
     
     print("4. Antes del model.predict()", flush=True)
     
-    res = model.predict(entrada, verbose =0)
+    salida = model(entrada, training= false)
+    
+    print("4.5 Modelo ejecutado", flush=True)
+    
+    res= salida.numpy()[0]
     
     print("5. Despues del model.predict()", flush=True)
     
