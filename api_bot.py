@@ -180,14 +180,13 @@ def procesar_mensaje():
     try:
         
 
-        print("Antes de predict_class")
-        
-        ints = predict_class(texto_usuario, model)
-        print("Después de predict_class")
-        
-        respuesta_ia = get_response(ints, intents)
-        
-        print("Después de get_response")
+        ints = [{
+    "intent": "saludo",
+    "probability": "0.99"
+            }]
+
+        respuesta_ia = "Hola, soy Aurora. Esta es una prueba."
+    
 
         if len(ints) > 0:
             intencion_detectada = ints[0]["intent"]
