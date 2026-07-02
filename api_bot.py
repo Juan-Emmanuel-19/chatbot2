@@ -90,15 +90,23 @@ def bow(sentence, words, show_details=True):
 
 def predict_class(sentence, model):
 
-    print("1. Entró a predict_class")
+    print("1. Entró a predict_class", flush=True)
 
     p = bow(sentence, words, show_details=False)
 
-    print("2. Bag creado")
+    print("2. Bag creado", flush=True)
 
-    res = model.predict(np.array([p]))[0]
+    entrada = np.array([p]), dtype=np.float32
 
-    print("3. Predicción realizada")
+    print("3. Entrada creada", flush= True)
+    
+    print("4. Antes del model.predict()", flush=True)
+    
+    res = model.predict(entrada, verbose =0)
+    
+    print("5. Despues del model.predict()", flush=True)
+    
+    return[]
 
     ERROR_THRESHOLD = 0.25
 
