@@ -110,6 +110,11 @@ def predict_class(sentence, model):
     
     res= salida.numpy()[0]
     
+    print("Salida del modelo:", res, flush=True)
+    print("Valor máximo:", np.max(res), flush=True)
+    print("Índice máximo:", np.argmax(res), flush=True)
+    print("Clase predicha:", classes[np.argmax(res)], flush=True)
+    
     print("5. Despues del model.predict()", flush=True)
     
 
@@ -132,6 +137,9 @@ def predict_class(sentence, model):
             "probability": str(r[1])
         })
 
+    print("Resultados:", results, flush=True)
+    print("Return list:", return_list, flush=True)
+    
     return return_list
 
 
