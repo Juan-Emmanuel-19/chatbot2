@@ -96,7 +96,7 @@ def predict_class(sentence, model):
 
     print("2. Bag creado", flush=True)
 
-    entrada = np.array([p]), dtype=np.float32
+    entrada = np.array([p], dtype=np.float32)
 
     print("3. Entrada creada", flush= True)
     
