@@ -161,9 +161,9 @@ print("===== API CARGADA =====")
 def procesar_mensaje():
 
     print("===== ENTRÓ A procesar_mensaje =====", flush= True)
-    #datos_entrantes = request.get_json(force=True, silent=True)
+    datos_entrantes = request.get_json(force=True, silent=True)
     
-    #print(datos_entrantes, flush=True)
+    print(datos_entrantes, flush=True)
     
     #if not datos_entrantes:
 
