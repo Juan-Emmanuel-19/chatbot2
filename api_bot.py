@@ -1,4 +1,4 @@
-print("ESTE ES MI API_BOT NUEVO")
+print("============== VERSION 7 ==============")
 
 from flask import Flask, request, jsonify
 import random
@@ -52,7 +52,7 @@ def clean_up_sentence(sentence):
         print("3", word, flush=True)
         palabra = corrector.correction(word)
         
-        print("4", palabra_bien_escrita, flush=True)
+        print("4", palabra, flush=True)
 
         if palabra is None:
             palabra = word
@@ -73,8 +73,6 @@ def bow(sentence, words, show_details=True):
     sentence_words = clean_up_sentence(sentence)
 
     print(sentence_words)
-
-    ...
 
     bag = [0] * len(words)
 
@@ -146,7 +144,7 @@ print("App creada")
 @app.route("/")
 def inicio():
 
-    return "Aurora API funcionando correctamente"
+    return "VERSION 7"
 
 
 @app.route("/prueba", methods=["POST"])
@@ -170,7 +168,7 @@ def procesar_mensaje():
     #if not datos_entrantes:
 
     return jsonify({
-           "ok", true
+           "ok": True
         })
 
     if "mensaje" not in datos_entrantes:
