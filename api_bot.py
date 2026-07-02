@@ -40,12 +40,19 @@ model = tf.keras.models.load_model("chatbot_model.h5", compile=False)
 # ===========================
 
 def clean_up_sentence(sentence):
+    
+    print("1", flush=True)
     sentence_words = nltk.word_tokenize(sentence)
 
+    print("2", flush=True)
     palabras_corregidas = []
 
     for word in sentence_words:
+        
+        print("3", word, flush=True)
         palabra = corrector.correction(word)
+        
+        print("4", palabra_bien_escrita, flush=True)
 
         if palabra is None:
             palabra = word
@@ -53,6 +60,8 @@ def clean_up_sentence(sentence):
         palabras_corregidas.append(
             lemmatizer.lemmatize(palabra.lower())
         )
+        
+    print("5", flush=True)
 
     return palabras_corregidas
 
