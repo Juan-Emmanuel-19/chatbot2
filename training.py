@@ -86,10 +86,7 @@ model = Sequential([
     Dropout(0.5),
     Dense(len(train_y[0]), activation="softmax")
 ])
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(len(train_y[0]), activation='softmax'))
+
 
 # 5. COMPILACIÓN Y ENTRENAMIENTO
 # Usamos el optimizador estándar SGD (el que corregimos en la línea 11)
@@ -99,7 +96,11 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 # Entrenamos el modelo. 
 # epochs = cantidad de veces que la red verá los datos.
 print("Entrenando el modelo...")
-hist = model.fit(train_x, train_y, epochs=100, batch_size=5, verbose=1)
+hist = model.fit(train_x, train_y, epochs=300, batch_size=5, verbose=1)
+
+loss, acc = model.evaluate(train_x, train_y, verbose=0)
+print("Accuracy final:", acc)
+print("Loss final:", loss)
 
 # Guardamos el cerebro de la IA
 model.save('chatbot_model.h5')

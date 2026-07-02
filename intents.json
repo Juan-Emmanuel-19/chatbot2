@@ -2,17 +2,17 @@
   "intents": [
     {
       "tag": "saludo",
-      "patterns": ["Hola", "¿Cómo estás?", "como estas", "saludos", "qué onda", "buenas", "buenos días", "buenas tardes", "buenas noches"],
+      "patterns": ["Hola", "¿Cómo estás?", "como estas", "saludos", "qué onda", "buenas", "buenos días", "buenas tardes", "buenas noches", "holaaa", "buen dia", "que hubo"],
       "responses": ["¡Hola! ¿En qué puedo ayudarte hoy?", "¡Saludos! ¿Qué necesitas?", "¡Buen día! ¿En qué te puedo asistir sobre la prevención de VSBG?"]
     },
     {
       "tag": "despedida",
-      "patterns": ["Adiós", "Nos vemos", "Hasta luego", "Me voy", "Chao", "Hasta pronto", "te cuidas", "ya no tengo más dudas", "gracias, eso es todo", "estoy bien por ahora"],
+      "patterns": ["Adiós", "Nos vemos luego", "Hasta luego", "Me voy", "Chao", "Hasta pronto", "te cuidas", "ya no tengo más dudas", "gracias, eso es todo", "estoy bien por ahora"],
       "responses": ["Entiendo. Recuerda que aquí estaré si necesitas hablar de nuevo. Tómate tu tiempo y cuídate mucho", "¡Nos vemos! Vuelve pronto si necesitas más información."]
     },
     {
       "tag": "definicion_vsbg",
-      "patterns": ["¿Qué es la VSBG?", "¿Qué significa la violencia sexual basada en género?", "Definición de violencia sexual", "¿Qué se entiende por VSBG?", "concepto de vsbg"],
+      "patterns": ["¿Qué es la VSBG?", "¿Qué significa la violencia sexual basada en género?", "Definición de violencia sexual", "¿Qué se entiende por VSBG?", "concepto de vsbg", "Que es la violencia de genero", "explicame la vsbg"],
       "responses": [
         "La violencia sexual basada en género (VSBG) es cualquier acto de naturaleza sexual, real o intentado, cometido contra una persona sin su consentimiento. Está enraizada en desigualdades de poder y normas de género. [cite: 3]", 
         "Según el Ministerio de Educación, es todo acto sexual, tentativa, comentarios o insinuaciones sexuales no deseados, o acciones para comercializar la sexualidad de una persona mediante coacción. [cite: 3]"
