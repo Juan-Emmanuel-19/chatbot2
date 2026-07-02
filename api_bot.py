@@ -165,10 +165,14 @@ def procesar_mensaje():
     
     print(datos_entrantes, flush=True)
     
+    texto_usuario = datos_entrantes["mensaje"]
+    
+    print("Mensaje:", texto_usuario, flush=True)
+    
     #if not datos_entrantes:
 
     return jsonify({
-           "ok": True
+           "mensaje": texto_usuario
         })
 
     if "mensaje" not in datos_entrantes:
