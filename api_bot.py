@@ -141,7 +141,7 @@ def prueba():
 def procesar_mensaje():
 
     datos_entrantes = request.get_json(force=True, silent=True)
-
+    
     if not datos_entrantes:
 
         return jsonify({
@@ -155,6 +155,9 @@ def procesar_mensaje():
         }), 400
 
     texto_usuario = datos_entrantes["mensaje"]
+    
+    print("========== INICIO MENSAJE ==========")
+    print("Mensaje recibido:", texto_usuario)
 
     if texto_usuario == "iniciar_sesion":
 
@@ -177,8 +180,14 @@ def procesar_mensaje():
     try:
         
 
+        print("Antes de predict_class")
+        
         ints = predict_class(texto_usuario, model)
+        print("Después de predict_class")
+        
         respuesta_ia = get_response(ints, intents)
+        
+        print("Después de get_response")
 
         if len(ints) > 0:
             intencion_detectada = ints[0]["intent"]
