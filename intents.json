@@ -7,7 +7,28 @@
     },
     {
       "tag": "despedida",
-      "patterns": ["Adiós", "Nos vemos luego", "Hasta luego", "Me voy", "Chao", "Hasta pronto", "te cuidas", "ya no tengo más dudas", "gracias, eso es todo", "estoy bien por ahora"],
+      "patterns": [
+    "Adiós",
+    "adios",
+    "Nos vemos",
+    "Hasta luego",
+    "Me voy",
+    "Chao",
+    "Hasta pronto",
+    "bye",
+    "bye bye",
+    "gracias",
+    "muchas gracias",
+    "eso era todo",
+    "listo gracias",
+    "ya terminé",
+    "ya no necesito ayuda",
+    "me despido",
+    "hasta mañana",
+    "hasta la próxima",
+    "nos vemos luego",
+    "gracias por tu ayuda"
+],
       "responses": ["Entiendo. Recuerda que aquí estaré si necesitas hablar de nuevo. Tómate tu tiempo y cuídate mucho", "¡Nos vemos! Vuelve pronto si necesitas más información."]
     },
     {
