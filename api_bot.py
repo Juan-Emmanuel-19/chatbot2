@@ -134,7 +134,6 @@ app = Flask(__name__)
 
 print("App creada")
 
-
 @app.route("/")
 def inicio():
 
@@ -149,10 +148,11 @@ def prueba():
         "mensaje": "La API recibe POST correctamente"
     })
 
-
+print("===== API CARGADA =====")
 @app.route("/enviar_mensaje", methods=["POST"])
 def procesar_mensaje():
 
+    print("===== ENTRÓ A procesar_mensaje =====")
     datos_entrantes = request.get_json(force=True, silent=True)
     
     if not datos_entrantes:
