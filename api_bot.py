@@ -112,11 +112,9 @@ def predict_class(sentence, model):
     
     print("5. Despues del model.predict()", flush=True)
     
-    return[]
 
     ERROR_THRESHOLD = 0.25
 
-    ...
     results = [
         [i, r]
         for i, r in enumerate(res)
