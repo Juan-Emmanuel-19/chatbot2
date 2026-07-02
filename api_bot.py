@@ -35,6 +35,8 @@ words = pickle.load(open("words.pkl", "rb"))
 classes = pickle.load(open("classes.pkl", "rb"))
 model = tf.keras.models.load_model("chatbot_model.h5", compile=False)
 
+print("TensorFlow:", tf.__version__, flush=True)
+print("Keras:", tf.keras.__version__, flush=True)
 print("Modelo cargado correctamente", flush=True)
 print("Input shape:", model.input_shape, flush=True)
 print("Output shape:", model.output_shape, flush=True)
@@ -102,7 +104,7 @@ def predict_class(sentence, model):
     
     print("4. Antes del model.predict()", flush=True)
     
-    salida = model(entrada, training= false)
+    salida = model(entrada, training= False)
     
     print("4.5 Modelo ejecutado", flush=True)
     
