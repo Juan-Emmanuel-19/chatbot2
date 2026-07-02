@@ -169,13 +169,15 @@ def procesar_mensaje():
     
     print("Mensaje:", texto_usuario, flush=True)
     
-    palabras = clean_up_sentence(texto_usuario)
+    bag = bow(texto_usuario, words)
 
-    print("Resultado:", palabras, flush=True)    
+    print("Tamaño del bag:", len(bag), flush=True) 
+    print("Suma:", int(np.sum(bag)), flush = True)   
     #if not datos_entrantes:
 
     return jsonify({
-           "palabras": palabras
+           "tamaño": len(bag),
+           "suma": int(np.sum(bag))
         })
 
     if "mensaje" not in datos_entrantes:
