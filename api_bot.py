@@ -35,6 +35,10 @@ words = pickle.load(open("words.pkl", "rb"))
 classes = pickle.load(open("classes.pkl", "rb"))
 model = tf.keras.models.load_model("chatbot_model.h5", compile=False)
 
+print("Modelo cargado correctamente", flush=True)
+print("Input shape:", model.input_shape, flush=True)
+print("Output shape:", model.output_shape, flush=True)
+
 # ===========================
 # FUNCIONES NLP
 # ===========================
