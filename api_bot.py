@@ -177,15 +177,7 @@ def procesar_mensaje():
     
     print(datos_entrantes, flush=True)
     
-    texto_usuario = datos_entrantes["mensaje"]
-    
-    print("Mensaje:", texto_usuario, flush=True)
-    
-    bag = bow(texto_usuario, words)
-    
-    res = model.predict(np.array([bag]), verbose=0)
-    
-    print("Prediccion:", res, flush=True)  
+      
     #if not datos_entrantes:
 
     return jsonify({
