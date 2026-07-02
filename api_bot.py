@@ -59,7 +59,13 @@ def clean_up_sentence(sentence):
 
 def bow(sentence, words, show_details=True):
 
+    print("Entró a bow")
+
     sentence_words = clean_up_sentence(sentence)
+
+    print(sentence_words)
+
+    ...
 
     bag = [0] * len(words)
 
@@ -73,12 +79,19 @@ def bow(sentence, words, show_details=True):
 
 def predict_class(sentence, model):
 
+    print("1. Entró a predict_class")
+
     p = bow(sentence, words, show_details=False)
 
-    res = model.predict(np.array([p]), verbose=0)[0]
+    print("2. Bag creado")
+
+    res = model.predict(np.array([p]))[0]
+
+    print("3. Predicción realizada")
 
     ERROR_THRESHOLD = 0.25
 
+    ...
     results = [
         [i, r]
         for i, r in enumerate(res)
@@ -180,12 +193,8 @@ def procesar_mensaje():
     try:
         
 
-        ints = [{
-    "intent": "saludo",
-    "probability": "0.99"
-            }]
-
-        respuesta_ia = "Hola, soy Aurora. Esta es una prueba."
+        ints = predict_class(texto_usuario, model)
+        respuesta_ia = get_response(ints, intents)
     
 
         if len(ints) > 0:
