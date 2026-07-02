@@ -178,11 +178,11 @@ def procesar_mensaje():
     print(datos_entrantes, flush=True)
     
       
-    #if not datos_entrantes:
+    if not datos_entrantes:
 
-    return jsonify({
-           "ok": True
-        })
+        return jsonify({
+           "error": "No llego ningun json"
+        }), 400
 
     if "mensaje" not in datos_entrantes:
 
