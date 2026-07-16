@@ -1,6 +1,7 @@
 print("============== VERSION 7 ==============")
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import random
 import json
 import pickle
@@ -8,6 +9,7 @@ import numpy as np
 import nltk
 import os
 import tensorflow as tf
+
 
 from nltk.stem import WordNetLemmatizer
 from spellchecker import SpellChecker
@@ -162,6 +164,7 @@ def get_response(ints, intents_json):
 # ===========================
 
 app = Flask(__name__)
+CORS(app)
 
 print("App creada")
 
