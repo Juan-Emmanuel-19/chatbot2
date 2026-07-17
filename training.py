@@ -3,105 +3,203 @@ import json
 import pickle
 import numpy as np
 import nltk
+import matplotlib.pyplot as plt
+
 from nltk.stem import WordNetLemmatizer
 
-# Librerías actualizadas para el modelo neuronal
 from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout
+from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras import Input
 
+# ==========================================
+# DESCARGA DE RECURSOS NLTK
+# ==========================================
 
-
-# Descargas de NLTK (con la corrección de _tab)
-nltk.download('punkt_tab')
-nltk.download('wordnet')
+nltk.download("punkt_tab")
+nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
 
-# Cargamos el archivo JSON (especificando utf-8 para no tener problemas con acentos)
-intents = json.loads(open('intents.json', encoding='utf-8').read())
+# ==========================================
+# CARGAR INTENTS
+# ==========================================
+
+with open("intents.json", encoding="utf-8") as archivo:
+    intents = json.load(archivo)
 
 words = []
 classes = []
 documents = []
-# Símbolos que la IA debe ignorar al aprender
-ignore_letters = ['?', '!', '¿', '¡', '.', ',']
 
-# 1. CLASIFICACIÓN DE PATRONES Y CATEGORÍAS
-for intent in intents['intents']:
-    for pattern in intent['patterns']:
-        # Separamos cada frase en palabras (tokenización)
+ignore_letters = ["?", "!", "¿", "¡", ".", ","]
+
+# ==========================================
+# PROCESAMIENTO DEL JSON
+# ==========================================
+
+for intent in intents["intents"]:
+
+    for pattern in intent["patterns"]:
+
         word_list = nltk.word_tokenize(pattern)
+
         words.extend(word_list)
-        # Relacionamos las palabras con su etiqueta (tag)
-        documents.append((word_list, intent['tag']))
-        # Si la etiqueta no está en nuestra lista de clases, la añadimos
-        if intent['tag'] not in classes:
-            classes.append(intent['tag'])
 
-# 2. LEMATIZACIÓN Y LIMPIEZA
-# Convertimos las palabras a su raíz minúscula y quitamos los símbolos
-words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
+        documents.append((word_list, intent["tag"]))
 
-# Eliminamos duplicados y ordenamos
+        if intent["tag"] not in classes:
+            classes.append(intent["tag"])
+
+words = [
+    lemmatizer.lemmatize(word.lower())
+    for word in words
+    if word not in ignore_letters
+]
+
 words = sorted(set(words))
 classes = sorted(set(classes))
 
-# Guardamos los datos procesados para que el chatbot los use después
-pickle.dump(words, open('words.pkl', 'wb'))
-pickle.dump(classes, open('classes.pkl', 'wb'))
+pickle.dump(words, open("words.pkl", "wb"))
+pickle.dump(classes, open("classes.pkl", "wb"))
 
-# 3. PREPARACIÓN DE LOS DATOS DE ENTRENAMIENTO
+# ==========================================
+# BAG OF WORDS
+# ==========================================
+
 training = []
+
 output_empty = [0] * len(classes)
 
 for document in documents:
+
     bag = []
-    word_patterns = document[0]
-    word_patterns = [lemmatizer.lemmatize(word.lower()) for word in word_patterns]
-    
-    # Creamos nuestra "bolsa de palabras" (1 si la palabra está, 0 si no)
+
+    word_patterns = [
+        lemmatizer.lemmatize(word.lower())
+        for word in document[0]
+    ]
+
     for word in words:
-        bag.append(1) if word in word_patterns else bag.append(0)
-        
+
+        bag.append(1 if word in word_patterns else 0)
+
     output_row = list(output_empty)
-    output_row[classes.index(document[1])] = 1
+
+    output_row[
+        classes.index(document[1])
+    ] = 1
+
     training.append([bag, output_row])
 
-# Mezclamos los datos para que el entrenamiento sea aleatorio
 random.shuffle(training)
 
-# Separamos los datos de entrada (x) y salida (y) de forma segura para NumPy moderno
 train_x = np.array([i[0] for i in training])
+
 train_y = np.array([i[1] for i in training])
 
-# 4. CREACIÓN DE LA RED NEURONAL (MODELO)
-model = Sequential()
+# ==========================================
+# MODELO
+# ==========================================
+
 model = Sequential([
+
     Input(shape=(len(train_x[0]),)),
+
+    Dense(256, activation="relu"),
+    Dropout(0.4),
+
     Dense(128, activation="relu"),
-    Dropout(0.5),
+    Dropout(0.3),
+
     Dense(64, activation="relu"),
-    Dropout(0.5),
+    Dropout(0.2),
+
     Dense(len(train_y[0]), activation="softmax")
+
 ])
 
+# ==========================================
+# COMPILACIÓN
+# ==========================================
 
-# 5. COMPILACIÓN Y ENTRENAMIENTO
-# Usamos el optimizador estándar SGD (el que corregimos en la línea 11)
-sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+sgd = SGD(
 
-# Entrenamos el modelo. 
-# epochs = cantidad de veces que la red verá los datos.
-print("Entrenando el modelo...")
-hist = model.fit(train_x, train_y, epochs=300, batch_size=5, verbose=1)
+    learning_rate=0.001,
+    momentum=0.9,
+    nesterov=True
 
-loss, acc = model.evaluate(train_x, train_y, verbose=0)
-print("Accuracy final:", acc)
-print("Loss final:", loss)
+)
 
-# Guardamos el cerebro de la IA
-model.save('chatbot_model.h5')
-print("¡Entrenamiento terminado y modelo guardado con éxito!")
+model.compile(
+
+    loss="categorical_crossentropy",
+    optimizer=sgd,
+    metrics=["accuracy"]
+
+)
+
+# ==========================================
+# ENTRENAMIENTO
+# ==========================================
+
+print("\n===================================")
+print("Entrenando Aurora...")
+print("===================================\n")
+
+hist = model.fit(
+
+    train_x,
+    train_y,
+    epochs=300,
+    batch_size=8,
+    verbose=1
+
+)
+
+# ==========================================
+# EVALUACIÓN
+# ==========================================
+
+loss, accuracy = model.evaluate(
+
+    train_x,
+    train_y,
+    verbose=0
+
+)
+
+print("\n===================================")
+print("RESULTADOS DEL ENTRENAMIENTO")
+print("===================================")
+
+print(f"Accuracy final : {accuracy*100:.2f}%")
+print(f"Loss final     : {loss:.4f}")
+
+# ==========================================
+# GUARDAR MODELO
+# ==========================================
+
+model.save("chatbot_model.h5")
+
+print("\nModelo guardado correctamente.")
+
+# ==========================================
+# GUARDAR GRÁFICA
+# ==========================================
+
+plt.figure(figsize=(8,5))
+
+plt.plot(hist.history["accuracy"])
+
+plt.title("Accuracy del entrenamiento")
+
+plt.xlabel("Epoch")
+
+plt.ylabel("Accuracy")
+
+plt.grid(True)
+
+plt.savefig("accuracy.png")
+
+print("Gráfica guardada como accuracy.png") 

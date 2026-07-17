@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "¿Cómo estás?", "como estas", "saludos", "qué onda", "buenas", "buenos días", "buenas tardes", "buenas noches", "holaaa", "buen dia", "que hubo"],
+      "responses": ["¡Hola! ¿En qué puedo ayudarte hoy?", "¡Saludos! ¿Qué necesitas?", "¡Buen día! ¿En qué te puedo asistir sobre la prevención de VSBG?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+    "Adiós",
+    "adios",
+    "Nos vemos",
+    "Hasta luego",
+    "Me voy",
+    "Chao",
+    "Hasta pronto",
+    "bye",
+    "bye bye",
+    "gracias",
+    "muchas gracias",
+    "eso era todo",
+    "listo gracias",
+    "ya terminé",
+    "ya no necesito ayuda",
+    "me despido",
+    "hasta mañana",
+    "hasta la próxima",
+    "nos vemos luego",
+    "gracias por tu ayuda"
+],
+      "responses": ["Entiendo. Recuerda que aquí estaré si necesitas hablar de nuevo. Tómate tu tiempo y cuídate mucho", "¡Nos vemos! Vuelve pronto si necesitas más información."]
+    },
+    {
+      "tag": "definicion_vsbg",
+      "patterns": ["¿Qué es la VSBG?", "¿Qué significa la violencia sexual basada en género?", "Definición de violencia sexual", "¿Qué se entiende por VSBG?", "concepto de vsbg", "Que es la violencia de genero", "explicame la vsbg"],
+      "responses": [
+        "La violencia sexual basada en género (VSBG) es cualquier acto de naturaleza sexual, real o intentado, cometido contra una persona sin su consentimiento. Está enraizada en desigualdades de poder y normas de género. [cite: 3]", 
+        "Según el Ministerio de Educación, es todo acto sexual, tentativa, comentarios o insinuaciones sexuales no deseados, o acciones para comercializar la sexualidad de una persona mediante coacción. [cite: 3]"
+      ]
+    },
+    {
+      "tag": "consecuencias_psicologicas",
+      "patterns": ["¿Cuáles son las consecuencias psicológicas?", "¿Qué secuelas deja la violencia de género?", "Efectos en la salud mental", "Consecuencias de sufrir VSBG", "como afecta la violencia", "Que consecuencias presenta?"],
+      "responses": [
+        "Las consecuencias psicológicas incluyen cambios en el estado de ánimo, miedo, ansiedad, insomnio, trastornos de conducta alimentaria y estrés postraumático. [cite: 3]"
+      ]
+    },
+    {
+      "tag": "factores_riesgo_proteccion",
+      "patterns": ["¿Cuáles son los factores de riesgo?", "¿Qué factores me protegen?", "Prevención de violencia", "Factores protectores", "que aumenta el riesgo"],
+      "responses": [
+        "Los factores de riesgo incluyen la desigualdad de género, la normalización de la violencia y la falta de redes de apoyo[cite: 8]. Por otro lado, los factores protectores son la educación en derechos humanos, las redes de apoyo familiares y las masculinidades positivas[cite: 9]."
+      ]
+    },
+    {
+      "tag": "que_hacer_riesgo",
+      "patterns": ["¿Qué hago si estoy en riesgo?", "Cómo actuar ante VSBG", "Pasos a seguir si sufro violencia", "¿Qué hacer si identifico una situación de riesgo?", "a quien acudo"],
+      "responses": [
+        "Si identificas una situación de riesgo, busca apoyo en personas de confianza, contacta a instituciones especializadas o líneas de atención en tu comunidad, y no minimices las señales de alerta. Confía en tu intuición. [cite: 11, 12, 13, 14]"
+      ]
+    },
+    {
+      "tag": "señales_alerta",
+      "patterns": ["¿Cómo identificar señales de alerta?", "Señales de violencia en la pareja", "Comportamientos controladores", "Acoso en la universidad", "que es una señal de alerta"],
+      "responses": [
+        "En las relaciones personales, las señales incluyen comportamientos controladores, aislamiento social por parte de la pareja, celos, desvaloración y control financiero[cite: 55]. En la universidad, debes estar alerta ante bullying, acoso, insultos o exclusión social[cite: 60]."
+      ]
+    },
+    {
+      "tag": "marco_legal",
+      "patterns": ["¿Qué leyes protegen a la mujer?", "Marco legal VSBG", "Normativas contra la violencia", "Leyes de acoso en la universidad", "hay leyes que me protejan"],
+      "responses": [
+        "Existen normativas como la Ley 1257 de 2008 sobre sensibilización y sanción de violencia contra mujeres, la Ley 248 de 1995 para prevenir y erradicar la violencia, y la reciente Ley 2365 de 2024 sobre medidas de prevención y protección del acoso sexual en instituciones de educación superior. [cite: 22, 23, 24]"
+      ]
+    },
+
+    {
+      "tag": "derechos",
+      "patterns": ["¿Qué debo saber sobre mis derechos?", "acerca de mis derechos"],
+      "responses": [
+        "Como estudiante, tienes derecho a vivir en un entorno libre de violencia y acoso. La universidad tiene políticas que protegen contra la violencia sexual y de género. Además, existen leyes nacionales e internacionales que garantizan tu seguridad y bienestar. Si eres víctima, puedes presentar una queja formal a través de los canales correspondientes."
+      ]
+    },
+
+    {
+      "tag": "etica_cuidado",
+      "patterns": ["¿Qué es la ética del cuidado?", "Principios de la ética del cuidado", "Cómo acompañar a una víctima", "Protocolo ético VSBG", "como debe ser la atencion"],
+      "responses": [
+        "La ética del cuidado reconoce la importancia de las relaciones interpersonales y la responsabilidad pública, colocando el cuidado y la dignidad humana como valor central en el acompañamiento a personas que experimentan violencia. [cite: 70, 73]",
+        "Implica rechazar dinámicas de poder opresivas [cite: 76], atender las necesidades específicas con empatía [cite: 83, 84] y reconocer el contexto y las diferencias culturales o de identidad de la persona afectada[cite: 85, 87]."
+      ]
+    },
+
+    {
+      "tag": "sos_inminente",
+      "patterns": [
+        "me va a matar",
+        "tiene un arma",    
+        "me encerró",
+        "ayuda por favor me está pegando",
+        "tengo miedo de que me haga algo hoy",
+        "está afuera de mi casa furioso",
+        "auxilio me quiere hacer daño",
+        "llamen a la policía"
+      ],
+      "responses": [
+        "EMERGENCIA_ROJO: Si estás en peligro físico inminente en este instante, por favor sal de este chat. Llama de inmediato a la Policía Nacional al 123 o a la Línea Púrpura al 155. Si no puedes hablar, avísale a un vecino, escribe a alguien de confianza o busca un espacio público. Tu vida y tu integridad física son la prioridad número uno ahora mismo."
+      ]
+    },
+    {
+      "tag": "acoso_amenaza_incipiente",
+      "patterns": [
+        "mi ex me está siguiendo",
+        "me revisa el celular a la fuerza",
+        "ayer me empujó",
+        "me dijo que si lo dejo se va a matar",
+        "me insiste en verme y me da mucho miedo",
+        "se para afuera de mi salón a vigilarme",
+        "me amenaza con publicar mis fotos"
+      ],
+      "responses": [
+        "Lo que me estás contando es una señal de alerta grave; el control y el miedo no son parte de una relación sana y no tienes que pasar por esto sola. El primer paso es proteger tu entorno. ¿Te gustaría que hablemos sobre cómo diseñar un 'Plan de Seguridad Silencioso' o prefieres conocer las rutas de apoyo de tu universidad?"
+      ]
+    },
+
+    {
+      "tag": "bienvenida_protocolo",
+      "patterns": ["iniciar_sesion"],
+      "responses": [
+        "¡Hola! Soy tu asistente virtual, aquí para proporcionarte información sobre prevención de la violencia sexual basada en género en el campus. ¿En qué puedo ayudarte hoy?"
+      ]
+    } 
+  ]
+}   
