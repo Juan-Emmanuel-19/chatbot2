@@ -1,0 +1,586 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hola Aurora",
+        "Hola chatbot",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "¿Cómo estás?",
+        "¿Cómo te encuentras?",
+        "¿Qué tal?",
+        "¿Hay alguien ahí?",
+        "Saludos",
+        "Hola, necesito ayuda",
+        "Quiero hacer una consulta",
+        "Necesito información",
+        "Buenas",
+        "Qué onda",
+        "Hola de nuevo",
+        "Hola, ¿puedes ayudarme?",
+        "¿Podemos hablar?",
+        "Necesito orientación",
+        "Hola bot",
+        "Hola asistente",
+        "Buen día",
+        "Hola Aurora, tengo una duda",
+        "Quiero saber sobre violencia sexual"
+      ],
+      "responses": [
+        "¡Hola! Soy Aurora, tu asistente virtual sobre prevención de la Violencia Sexual Basada en Género (VSBG). Estoy aquí para brindarte información clara, confiable y basada en material educativo especializado.\n\nPuedo ayudarte a comprender qué es la VSBG, identificar señales de alerta, conocer las consecuencias psicológicas, aprender estrategias de prevención, conocer las rutas de atención, el marco legal colombiano y resolver dudas relacionadas con este tema.\n\nEste es un espacio informativo y confidencial. Puedes hacerme cualquier pregunta relacionada con la prevención de la violencia sexual basada en género y con gusto intentaré orientarte."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Me voy",
+        "Chao",
+        "Hasta pronto",
+        "Gracias",
+        "Muchas gracias",
+        "Eso era todo",
+        "No tengo más dudas",
+        "Nos vemos después",
+        "Hasta la próxima",
+        "Gracias por ayudarme",
+        "Gracias Aurora",
+        "Eso es todo",
+        "Ya terminé",
+        "Listo",
+        "Perfecto",
+        "Me despido",
+        "Cuídate",
+        "Hasta mañana",
+        "Nos vemos luego"
+      ],
+      "responses": [
+        "Ha sido un gusto acompañarte. Espero que la información brindada te haya sido útil.\n\nRecuerda que conocer tus derechos, identificar las señales de alerta y promover relaciones basadas en el respeto son herramientas fundamentales para prevenir la violencia sexual basada en género.\n\nSi en otro momento necesitas más información o tienes nuevas preguntas, estaré disponible para ayudarte. ¡Cuídate mucho!"
+      ]
+    },
+    {
+      "tag": "definicion_vsbg",
+      "patterns": [
+        "¿Qué es la VSBG?",
+        "¿Qué significa violencia sexual basada en género?",
+        "Explícame qué es la VSBG",
+        "Concepto de VSBG",
+        "¿Qué significa VSBG?",
+        "Definición de violencia sexual",
+        "¿Qué es la violencia basada en género?",
+        "¿Qué se entiende por VSBG?",
+        "Háblame de la violencia sexual basada en género",
+        "Quiero conocer la definición",
+        "¿En qué consiste la VSBG?",
+        "¿Qué es violencia sexual?",
+        "Explícame ese concepto",
+        "No entiendo qué es la VSBG",
+        "¿Qué comprende la VSBG?",
+        "¿Cómo se define la violencia sexual?",
+        "Necesito la definición",
+        "¿Qué significa esa violencia?",
+        "Explícame la violencia sexual",
+        "¿Qué es exactamente la VSBG?"
+      ],
+      "responses": [
+        "La Violencia Sexual Basada en Género (VSBG) comprende cualquier acto de naturaleza sexual realizado sin el consentimiento libre, informado y voluntario de una persona. No se limita únicamente a una agresión física; también incluye el acoso sexual, las insinuaciones sexuales no deseadas, la explotación sexual, la trata de personas con fines de explotación sexual, la coerción, las amenazas y cualquier conducta que vulnere la dignidad, la autonomía o la libertad sexual de una persona.\n\nEste tipo de violencia tiene su origen en desigualdades históricas de poder, estereotipos de género y prácticas discriminatorias presentes en la sociedad. Aunque cualquier persona puede ser víctima, las mujeres, niñas y otras poblaciones en situación de vulnerabilidad presentan un mayor riesgo.\n\nLa VSBG puede generar consecuencias físicas, emocionales, psicológicas, familiares, académicas y sociales, por lo que su prevención requiere educación, sensibilización, promoción de la igualdad y fortalecimiento de las redes de apoyo."
+      ]
+    },
+    {
+      "tag": "consecuencias_psicologicas",
+      "patterns": [
+        "¿Cuáles son las consecuencias psicológicas?",
+        "¿Qué consecuencias deja la violencia?",
+        "¿Cómo afecta psicológicamente?",
+        "¿Qué efectos produce?",
+        "¿Qué daños emocionales genera?",
+        "¿Cómo afecta la salud mental?",
+        "Consecuencias emocionales",
+        "¿Qué secuelas deja?",
+        "¿Qué pasa después de sufrir violencia?",
+        "¿Qué trastornos puede producir?",
+        "¿Qué consecuencias tiene la VSBG?",
+        "¿Cómo afecta una agresión?",
+        "¿Qué siente una víctima?",
+        "¿Qué efectos psicológicos existen?",
+        "¿Cómo cambia la vida de una víctima?"
+      ],
+      "responses": [
+        "La violencia sexual basada en género puede afectar profundamente la salud mental y el bienestar de una persona. Entre las consecuencias más frecuentes se encuentran la ansiedad, el miedo constante, la tristeza persistente, la disminución de la autoestima, sentimientos de culpa, vergüenza, aislamiento social, alteraciones del sueño, estrés postraumático y depresión.\n\nTambién puede afectar el desempeño académico o laboral, dificultar las relaciones interpersonales y generar desconfianza hacia otras personas.\n\nEs importante recordar que cada persona vive el proceso de manera diferente. Buscar apoyo psicológico, recibir acompañamiento profesional y contar con una red de apoyo son elementos fundamentales para favorecer la recuperación emocional."
+      ]
+    },
+    {
+      "tag": "factores_riesgo_proteccion",
+      "patterns": [
+        "¿Cuáles son los factores de riesgo?",
+        "¿Qué aumenta el riesgo?",
+        "¿Qué factores protectores existen?",
+        "¿Cómo puedo protegerme?",
+        "¿Qué reduce el riesgo?",
+        "Factores de protección",
+        "Prevención de violencia",
+        "¿Cómo disminuir el riesgo?",
+        "¿Qué situaciones aumentan la violencia?",
+        "¿Cómo prevenir?"
+      ],
+      "responses": [
+        "Los factores de riesgo incluyen la desigualdad de género, la normalización de la violencia, el consumo problemático de sustancias, el aislamiento social, la dependencia económica, la falta de información y las relaciones basadas en el control o la manipulación.\n\nComo factores protectores destacan la educación en derechos humanos, el fortalecimiento de la autoestima, el conocimiento del consentimiento, las redes de apoyo familiares y sociales, la comunicación asertiva, las relaciones saludables, la igualdad de género y la promoción de masculinidades positivas.\n\nFortalecer estos factores protectores contribuye significativamente a prevenir situaciones de violencia."
+      ]
+    },
+    {
+      "tag": "que_hacer_riesgo",
+      "patterns": [
+        "¿Qué hago si estoy en riesgo?",
+        "¿Qué debo hacer?",
+        "Necesito ayuda",
+        "¿Cómo actuar?",
+        "¿Qué hago si me siento en peligro?",
+        "¿Qué pasos debo seguir?",
+        "¿A quién acudo?",
+        "¿Dónde busco ayuda?",
+        "¿Cómo protegerme?",
+        "¿Qué hago si temo por mi seguridad?"
+      ],
+      "responses": [
+        "Si consideras que estás enfrentando una situación de riesgo, lo primero es priorizar tu seguridad. Busca un lugar seguro, comunícate con una persona de confianza y procura no enfrentar sola la situación.\n\nTambién es recomendable acudir a las rutas de atención disponibles en tu institución educativa, centros de salud o autoridades competentes. Si el riesgo es inmediato, contacta a los servicios de emergencia.\n\nRecuerda que pedir ayuda no significa debilidad. Existen profesionales e instituciones preparadas para brindarte orientación, acompañamiento y protección."
+      ]
+    },
+    {
+      "tag": "señales_alerta",
+      "patterns": [
+        "¿Cómo identificar señales de alerta?",
+        "¿Qué son las señales de alerta?",
+        "¿Cómo saber si existe violencia?",
+        "¿Qué comportamientos son preocupantes?",
+        "¿Cómo identificar una relación violenta?",
+        "¿Qué debo observar?",
+        "¿Qué conductas son peligrosas?",
+        "¿Cómo detectar el abuso?",
+        "¿Cómo reconocer el acoso?",
+        "¿Qué indicios existen?"
+      ],
+      "responses": [
+        "Las señales de alerta pueden manifestarse mediante conductas de control excesivo, aislamiento de familiares o amistades, celos constantes, amenazas, manipulación emocional, humillaciones, vigilancia permanente, control del teléfono o redes sociales, presión para mantener relaciones sexuales, intimidación o cualquier conducta que genere miedo.\n\nEn contextos educativos también constituyen señales de alerta los comentarios sexuales no deseados, el acoso, la difusión de contenido íntimo sin consentimiento, las insinuaciones persistentes y cualquier conducta que afecte la dignidad de la persona.\n\nReconocer estas señales de manera temprana permite buscar ayuda antes de que la situación se agrave."
+      ]
+    },
+    {
+      "tag": "marco_legal",
+      "patterns": [
+        "¿Qué leyes protegen a la mujer?",
+        "Marco legal",
+        "¿Qué leyes existen?",
+        "¿Qué dice la ley?",
+        "¿Cómo me protege la ley?",
+        "Normatividad",
+        "Legislación",
+        "Leyes contra la violencia",
+        "¿Qué normas existen?",
+        "¿Qué derechos reconoce la ley?"
+      ],
+      "responses": [
+        "En Colombia existen diferentes normas orientadas a prevenir, atender y sancionar la violencia basada en género. Entre las principales se encuentra la Ley 1257 de 2008, que establece medidas de sensibilización, prevención y protección para las mujeres víctimas de violencia.\n\nAsimismo, la Ley 2365 de 2024 fortalece las acciones para prevenir, atender y sancionar el acoso sexual, especialmente en instituciones de educación superior.\n\nEstas normas buscan garantizar la protección de las víctimas, el acceso a rutas de atención, la atención integral y el respeto por los derechos humanos, promoviendo una vida libre de cualquier forma de violencia."
+      ]
+    },
+    {
+      "tag": "derechos",
+      "patterns": [
+        "¿Qué derechos tengo?",
+        "¿Cuáles son mis derechos?",
+        "¿Qué debo saber sobre mis derechos?",
+        "Derechos de las víctimas",
+        "¿Qué derechos tengo como estudiante?",
+        "¿La universidad debe protegerme?",
+        "¿Tengo derecho a denunciar?",
+        "¿Qué protección tengo?",
+        "¿Qué garantías existen para las víctimas?",
+        "¿Qué derechos reconoce la ley?",
+        "¿Puedo recibir atención psicológica?",
+        "¿Tengo derecho a recibir acompañamiento?",
+        "¿Qué pasa si denuncio?",
+        "¿Quién protege mis derechos?",
+        "¿Cuáles son mis garantías?",
+        "¿Tengo derecho a un ambiente seguro?",
+        "¿Qué derechos tengo frente al acoso?",
+        "¿Puedo solicitar apoyo institucional?",
+        "¿La universidad debe actuar?",
+        "¿Qué respaldo legal tengo?"
+      ],
+      "responses": [
+        "Toda persona tiene derecho a vivir en un entorno libre de violencia, discriminación y cualquier forma de acoso. Estos derechos están protegidos por la Constitución Política de Colombia, las leyes nacionales y diversos instrumentos internacionales de derechos humanos.\n\nSi una persona es víctima de violencia sexual basada en género, tiene derecho a recibir atención médica, psicológica y jurídica, así como orientación, protección y acompañamiento durante todo el proceso. También tiene derecho a presentar denuncias sin ser revictimizada y a que su información sea tratada con confidencialidad.\n\nEn el contexto universitario, las instituciones de educación superior tienen la responsabilidad de promover ambientes seguros, prevenir la violencia, activar rutas de atención y garantizar medidas de protección para las personas afectadas. Conocer estos derechos permite tomar decisiones informadas y acceder oportunamente a los mecanismos de apoyo disponibles."
+      ]
+    },
+    {
+      "tag": "etica_cuidado",
+      "patterns": [
+        "¿Qué es la ética del cuidado?",
+        "Explícame la ética del cuidado",
+        "¿Cómo acompañar a una víctima?",
+        "¿Qué principios tiene la ética del cuidado?",
+        "¿Cómo debe tratarse a una víctima?",
+        "¿Qué significa cuidar desde la ética?",
+        "¿Cómo brindar apoyo?",
+        "¿Qué debo hacer al acompañar a alguien?",
+        "¿Qué es un acompañamiento respetuoso?",
+        "¿Cómo ofrecer ayuda correctamente?",
+        "¿Qué actitud debo tener?",
+        "¿Cómo actuar frente a una víctima?",
+        "¿Qué implica la ética del cuidado?",
+        "¿Por qué es importante la empatía?",
+        "¿Qué recomendaciones existen para acompañar?"
+      ],
+      "responses": [
+        "La ética del cuidado es un enfoque que sitúa la dignidad, el respeto y el bienestar de las personas como prioridad. En el contexto de la violencia sexual basada en género, implica escuchar sin juzgar, creer en el relato de la víctima, respetar sus decisiones y brindar apoyo sin ejercer presión.\n\nEste enfoque reconoce que cada persona vive las situaciones de violencia de manera diferente y que sus necesidades pueden variar. Por ello, el acompañamiento debe realizarse con empatía, confidencialidad y sensibilidad, evitando cualquier forma de culpabilización o revictimización.\n\nAdemás, la ética del cuidado promueve relaciones basadas en la solidaridad, la corresponsabilidad y el respeto por los derechos humanos, contribuyendo a generar espacios seguros para quienes requieren orientación y apoyo."
+      ]
+    },
+    {
+      "tag": "sos_inminente",
+      "patterns": [
+        "Me va a matar",
+        "Tengo mucho miedo",
+        "Me quiere matar",
+        "Está armado",
+        "Tiene un cuchillo",
+        "Tiene un arma",
+        "Está golpeándome",
+        "Auxilio",
+        "Ayuda por favor",
+        "Está afuera de mi casa",
+        "No puedo salir",
+        "Me encerró",
+        "Me está persiguiendo",
+        "Necesito ayuda urgente",
+        "Estoy en peligro",
+        "Temo por mi vida",
+        "Está intentando entrar",
+        "Me quiere hacer daño",
+        "Por favor ayúdenme",
+        "Llamen a la policía"
+      ],
+      "responses": [
+        "Si en este momento consideras que tu vida o tu integridad física están en peligro inmediato, tu seguridad es la prioridad. Si puedes hacerlo sin aumentar el riesgo, aléjate del lugar y busca un sitio seguro donde haya otras personas.\n\nComunícate de inmediato con la Policía Nacional a través de la línea 123 o con la Línea 155 de orientación para mujeres víctimas de violencia. También puedes contactar a una persona de confianza para informarle tu situación y solicitar ayuda.\n\nNo permanezcas sola si existe un riesgo inminente. Si no puedes hablar por teléfono, intenta enviar un mensaje de texto o utilizar cualquier otro medio disponible para pedir ayuda. Tu vida es lo más importante y existen instituciones preparadas para brindarte protección."
+      ]
+    },
+    {
+      "tag": "acoso_amenaza_incipiente",
+      "patterns": [
+        "Mi ex me sigue",
+        "Mi ex me persigue",
+        "Me revisa el celular",
+        "Controla mi teléfono",
+        "Me amenaza",
+        "Me dijo que si lo dejo se mata",
+        "Me empujó",
+        "Me insulta",
+        "Me da miedo mi pareja",
+        "Me controla",
+        "Me vigila",
+        "Me sigue a todas partes",
+        "Me amenaza con publicar fotos",
+        "No me deja salir",
+        "Me obliga a responderle",
+        "Me llama todo el tiempo",
+        "No respeta mis decisiones",
+        "Me siento controlada",
+        "Tengo miedo de terminar la relación",
+        "Siento que me está acosando"
+      ],
+      "responses": [
+        "Lo que describes puede constituir una señal de alerta importante. Las amenazas, el control constante, la vigilancia, el aislamiento, la manipulación emocional y el miedo no forman parte de una relación saludable.\n\nEs recomendable que no enfrentes esta situación en soledad. Habla con una persona de confianza, documenta los hechos cuando sea posible y conoce las rutas de atención disponibles en tu institución educativa o en las entidades competentes.\n\nSi el comportamiento aumenta en intensidad o existe riesgo para tu integridad física, busca ayuda inmediata. Recuerda que ninguna persona tiene derecho a controlar tus decisiones, limitar tu libertad o intimidarte mediante amenazas."
+      ]
+    },
+    {
+      "tag": "bienvenida_protocolo",
+      "patterns": [
+        "iniciar_sesion"
+      ],
+      "responses": [
+        "¡Hola! Soy Aurora, tu asistente virtual especializado en prevención de la Violencia Sexual Basada en Género (VSBG).\n\nEste es un espacio informativo, confidencial y pensado para orientarte de manera respetuosa. Aquí podrás encontrar información sobre qué es la VSBG, cómo identificar señales de alerta, cuáles son tus derechos, qué rutas de atención existen, cómo prevenir situaciones de violencia y qué acciones puedes tomar si tú o alguien cercano necesita ayuda.\n\nRecuerda que mi función es brindarte orientación basada en información educativa. Si en algún momento tu vida o tu integridad se encuentran en peligro inmediato, busca apoyo de las autoridades competentes o comunícate con las líneas de emergencia.\n\nEstoy aquí para acompañarte. ¿Sobre qué tema te gustaría conversar hoy?"
+      ]
+    },
+    {
+      "tag": "consentimiento",
+      "patterns": [
+        "¿Qué es el consentimiento?",
+        "¿Qué significa consentimiento?",
+        "¿Qué es el consentimiento sexual?",
+        "¿Cuándo existe consentimiento?",
+        "¿Qué significa dar consentimiento?",
+        "¿Cómo sé si hubo consentimiento?",
+        "¿Qué pasa si una persona no dice que sí?",
+        "¿El silencio significa consentimiento?",
+        "¿Puedo cambiar de opinión?",
+        "¿Se puede retirar el consentimiento?",
+        "¿Qué pasa si estaba bajo efectos del alcohol?",
+        "¿Una persona dormida puede dar consentimiento?",
+        "¿Qué hace válido el consentimiento?",
+        "¿Qué es un consentimiento informado?",
+        "Explícame el consentimiento",
+        "¿Qué características tiene el consentimiento?",
+        "¿Qué ocurre si alguien me obliga?",
+        "¿Qué pasa si me presionan?",
+        "¿Qué es un sí libre?",
+        "¿Cuándo el consentimiento no es válido?"
+      ],
+      "responses": [
+        "El consentimiento es un acuerdo libre, voluntario, informado, consciente y explícito para participar en una actividad de naturaleza sexual. Debe manifestarse sin ningún tipo de presión, amenaza, manipulación, intimidación o engaño. Además, el consentimiento puede retirarse en cualquier momento, incluso cuando la actividad ya ha comenzado.\n\nEl silencio, el miedo, la presión psicológica o la ausencia de resistencia nunca deben interpretarse como consentimiento. Tampoco existe consentimiento cuando una persona está inconsciente, dormida, bajo efectos de sustancias que afectan su capacidad de decidir o cuando existe una relación de poder que limita su libertad para decidir.\n\nRespetar el consentimiento significa respetar la autonomía, la dignidad y las decisiones de cada persona. Toda relación sana se construye sobre el respeto mutuo y la voluntad libre de quienes participan."
+      ]
+    },
+    {
+      "tag": "relaciones_saludables",
+      "patterns": [
+        "¿Qué es una relación saludable?",
+        "¿Qué caracteriza una relación sana?",
+        "¿Cómo es una relación saludable?",
+        "¿Cómo identificar una relación sana?",
+        "¿Qué debe tener una buena relación?",
+        "¿Cómo saber si mi relación es saludable?",
+        "¿Qué comportamientos son saludables?",
+        "¿Qué significa una relación basada en el respeto?",
+        "¿Cómo construir una relación sana?",
+        "¿Qué hace que una relación funcione?",
+        "¿Qué actitudes fortalecen una relación?",
+        "¿Qué valores debe tener una pareja?",
+        "¿Cómo debe tratarme mi pareja?",
+        "¿Qué comportamientos debo evitar?",
+        "¿Qué diferencias hay entre amor y control?",
+        "¿Cómo reconocer una buena relación?",
+        "¿Qué es una convivencia sana?",
+        "¿Cómo mantener una relación respetuosa?",
+        "¿Qué es el respeto en pareja?",
+        "¿Qué significa igualdad en una relación?"
+      ],
+      "responses": [
+        "Una relación saludable se construye sobre el respeto, la confianza, la comunicación, la igualdad y el apoyo mutuo. Cada persona conserva su libertad para tomar decisiones, expresar opiniones, mantener amistades y desarrollar sus proyectos personales sin miedo a represalias.\n\nEn una relación sana no existen amenazas, humillaciones, control excesivo, manipulación emocional, violencia física, psicológica, económica o sexual. Los desacuerdos se resuelven mediante el diálogo, el respeto y la búsqueda de soluciones compartidas.\n\nEs importante recordar que los celos excesivos, el control del teléfono, el aislamiento de familiares o amigos, las amenazas o la presión para realizar actividades no deseadas no son muestras de amor, sino posibles señales de una relación violenta. Promover relaciones saludables contribuye significativamente a prevenir la violencia sexual basada en género."
+      ]
+    },
+    {
+      "tag": "prevencion_vsbg",
+      "patterns": [
+        "¿Cómo prevenir la VSBG?",
+        "¿Cómo prevenir la violencia sexual?",
+        "¿Qué puedo hacer para prevenir?",
+        "¿Cómo evitar situaciones de violencia?",
+        "¿Qué medidas de prevención existen?",
+        "¿Cómo protegerme?",
+        "¿Cómo disminuir el riesgo?",
+        "¿Qué acciones ayudan a prevenir?",
+        "¿Cómo prevenir el acoso?",
+        "¿Cómo prevenir la violencia de género?",
+        "¿Qué recomendaciones existen?",
+        "¿Qué hábitos ayudan a prevenir?",
+        "¿Cómo fortalecer mi seguridad?",
+        "¿Cómo evitar relaciones violentas?",
+        "¿Cómo actuar preventivamente?",
+        "¿Cómo crear espacios seguros?",
+        "¿Qué debo aprender para prevenir?",
+        "¿Cómo puedo cuidarme?",
+        "¿Qué estrategias de prevención existen?",
+        "¿Qué puedo hacer desde la universidad?"
+      ],
+      "responses": [
+        "La prevención de la violencia sexual basada en género comienza con la educación, el reconocimiento de los derechos humanos y el respeto por la dignidad de todas las personas. Comprender qué es el consentimiento, promover relaciones igualitarias y aprender a identificar señales de alerta son herramientas fundamentales para reducir los riesgos.\n\nTambién es importante fortalecer las redes de apoyo, mantener una comunicación abierta con personas de confianza, conocer las rutas de atención institucionales y denunciar cualquier situación de violencia o acoso. La prevención no depende únicamente de las posibles víctimas; es una responsabilidad compartida por toda la sociedad.\n\nLas universidades, instituciones públicas, familias y comunidades desempeñan un papel esencial promoviendo ambientes seguros, campañas de sensibilización y acciones orientadas a eliminar la discriminación y las desigualdades que favorecen la violencia."
+      ]
+    },
+    {
+      "tag": "redes_apoyo",
+      "patterns": [
+        "¿Qué son las redes de apoyo?",
+        "¿Quién puede ayudarme?",
+        "¿Dónde puedo buscar ayuda?",
+        "¿Cómo pedir ayuda?",
+        "¿Qué hago si necesito apoyo?",
+        "¿Quién puede acompañarme?",
+        "¿A quién puedo acudir?",
+        "¿Qué instituciones ayudan?",
+        "¿Quién puede orientarme?",
+        "¿Cómo consigo apoyo?",
+        "¿Qué personas conforman una red de apoyo?",
+        "¿Por qué son importantes las redes de apoyo?",
+        "¿Qué debo hacer si me siento sola?",
+        "¿Cómo fortalecer mi red de apoyo?",
+        "¿Qué apoyo ofrece la universidad?",
+        "¿Quién puede escucharme?",
+        "¿Cómo encontrar ayuda?",
+        "¿Quién puede protegerme?",
+        "¿Qué recursos existen para las víctimas?",
+        "¿Cómo acceder a una red de apoyo?"
+      ],
+      "responses": [
+        "Las redes de apoyo son el conjunto de personas, instituciones y organizaciones que pueden brindar ayuda emocional, orientación, acompañamiento y protección frente a una situación de violencia. Estas redes pueden estar conformadas por familiares, amistades, docentes, profesionales de la salud, psicólogos, trabajadores sociales, autoridades competentes y entidades especializadas.\n\nContar con una red de apoyo permite reducir el aislamiento, recibir información confiable y acceder con mayor facilidad a las rutas de atención disponibles. Pedir ayuda es una acción de cuidado personal y nunca debe interpretarse como una señal de debilidad.\n\nFortalecer estas redes favorece la recuperación emocional, aumenta la sensación de seguridad y facilita la toma de decisiones informadas frente a situaciones de riesgo."
+      ]
+    },
+    {
+      "tag": "ruta_atencion",
+      "patterns": [
+        "¿Cuál es la ruta de atención?",
+        "¿Cómo denunciar?",
+        "¿Qué hago después de una agresión?",
+        "¿Dónde denuncio?",
+        "¿Cómo funciona la ruta de atención?",
+        "¿Qué instituciones atienden estos casos?",
+        "¿Qué debo hacer primero?",
+        "¿Cómo recibir atención?",
+        "¿Qué pasos debo seguir?",
+        "¿Cómo activar la ruta de atención?",
+        "¿Qué hago si fui víctima?",
+        "¿Qué servicios existen?",
+        "¿Cómo buscar ayuda institucional?",
+        "¿Qué entidades pueden ayudarme?",
+        "¿Qué ocurre después de denunciar?",
+        "¿Cómo acceder a apoyo psicológico?",
+        "¿Cómo recibir orientación jurídica?",
+        "¿Qué debo hacer inmediatamente?",
+        "¿Cómo solicitar protección?",
+        "¿Cómo funciona el acompañamiento institucional?"
+      ],
+      "responses": [
+        "La ruta de atención tiene como propósito garantizar la protección integral de las personas que han sido víctimas de violencia sexual basada en género. Dependiendo de la situación, puede incluir atención médica inmediata, apoyo psicológico, orientación jurídica, medidas de protección y acompañamiento durante todo el proceso.\n\nEs recomendable acudir lo antes posible a las autoridades competentes, a los servicios de salud o a las rutas establecidas por la institución educativa. Allí recibirás orientación sobre los pasos a seguir y los servicios disponibles según tu caso.\n\nCada situación es diferente, por lo que las medidas de atención pueden variar. Lo más importante es recordar que ninguna persona debe enfrentar sola una situación de violencia y que existen instituciones preparadas para brindar apoyo especializado."
+      ]
+    },
+    {
+      "tag": "educacion_sensibilizacion",
+      "patterns": [
+        "¿Por qué es importante la educación?",
+        "¿Cómo ayuda la sensibilización?",
+        "¿Por qué hablar sobre VSBG?",
+        "¿Cómo prevenir mediante la educación?",
+        "¿Qué importancia tiene la prevención?",
+        "¿Por qué debemos educarnos?",
+        "¿Cómo crear conciencia?",
+        "¿Qué beneficios tiene la sensibilización?",
+        "¿Cómo disminuir la violencia?",
+        "¿Por qué enseñar sobre igualdad?",
+        "¿Qué papel tiene la universidad?",
+        "¿Cómo prevenir desde la educación?",
+        "¿Por qué informar a las personas?",
+        "¿Cómo promover el respeto?",
+        "¿Qué impacto tiene la educación?",
+        "¿Qué significa sensibilizar?",
+        "¿Cómo cambiar la cultura de violencia?",
+        "¿Por qué es importante informar?",
+        "¿Cómo fomentar la igualdad?",
+        "¿Qué acciones educativas existen?"
+      ],
+      "responses": [
+        "La educación y la sensibilización son herramientas fundamentales para prevenir la violencia sexual basada en género. Informar a las personas sobre sus derechos, el consentimiento, las relaciones saludables y las señales de alerta permite identificar situaciones de riesgo antes de que escalen y favorece la construcción de comunidades más seguras.\n\nLa sensibilización también ayuda a eliminar estereotipos de género, prejuicios y creencias que justifican o minimizan la violencia. Cuando las personas comprenden el impacto que estas conductas tienen sobre las víctimas, es más probable que actúen con respeto, empatía y responsabilidad.\n\nLas instituciones educativas desempeñan un papel fundamental promoviendo campañas de prevención, espacios de diálogo y programas de formación que fomenten la igualdad, la convivencia pacífica y el respeto por los derechos humanos."
+      ]
+    },
+    {
+      "tag": "masculinidades_positivas",
+      "patterns": [
+        "¿Qué son las masculinidades positivas?",
+        "¿Qué significa masculinidad positiva?",
+        "¿Qué papel tienen los hombres?",
+        "¿Cómo prevenir la violencia desde los hombres?",
+        "¿Cómo promover relaciones igualitarias?",
+        "¿Qué es una masculinidad saludable?",
+        "¿Cómo romper estereotipos?",
+        "¿Cómo fomentar el respeto?",
+        "¿Qué responsabilidades tienen los hombres?",
+        "¿Cómo contribuir a la igualdad?",
+        "¿Qué es una nueva masculinidad?",
+        "¿Cómo evitar conductas machistas?",
+        "¿Qué significa ser un hombre respetuoso?",
+        "¿Cómo construir relaciones sanas?",
+        "¿Qué actitudes ayudan a prevenir?",
+        "¿Cómo apoyar la igualdad?",
+        "¿Cómo reducir la violencia?",
+        "¿Qué conductas positivas existen?",
+        "¿Qué cambios culturales son necesarios?",
+        "¿Qué significa ejercer una masculinidad responsable?"
+      ],
+      "responses": [
+        "Las masculinidades positivas promueven formas de relacionarse basadas en el respeto, la igualdad, la empatía y la corresponsabilidad. Este enfoque invita a cuestionar los estereotipos tradicionales que asocian la masculinidad con el control, la agresividad o la superioridad sobre otras personas.\n\nFomentar masculinidades positivas implica reconocer y respetar la autonomía de los demás, expresar las emociones de manera saludable, resolver los conflictos mediante el diálogo y rechazar cualquier forma de violencia o discriminación.\n\nLa participación activa de los hombres en la prevención de la violencia sexual basada en género contribuye a construir comunidades más seguras, relaciones más equitativas y una cultura basada en el respeto de los derechos humanos."
+      ]
+    },
+    {
+      "tag": "acompanamiento_victima",
+      "patterns": [
+        "¿Cómo ayudar a una víctima?",
+        "¿Cómo acompañar a alguien?",
+        "¿Qué debo hacer si una amiga fue agredida?",
+        "¿Cómo brindar apoyo emocional?",
+        "¿Cómo actuar frente a una víctima?",
+        "¿Qué no debo hacer?",
+        "¿Cómo escuchar a una víctima?",
+        "¿Cómo ofrecer ayuda?",
+        "¿Qué debo decir?",
+        "¿Cómo apoyar a una persona afectada?",
+        "¿Cómo acompañar sin juzgar?",
+        "¿Cómo demostrar empatía?",
+        "¿Cómo ayudar correctamente?",
+        "¿Cómo responder ante una agresión?",
+        "¿Qué recomendaciones existen?",
+        "¿Cómo proteger a una víctima?",
+        "¿Cómo orientar a una persona?",
+        "¿Qué actitud debo tener?",
+        "¿Cómo brindar confianza?",
+        "¿Cómo evitar revictimizar?"
+      ],
+      "responses": [
+        "Acompañar a una persona que ha vivido una situación de violencia implica escuchar con respeto, creer en su relato, evitar juzgarla y respetar sus decisiones. Es importante permitir que exprese sus emociones sin presionarla para contar detalles que no desea compartir.\n\nTambién es recomendable ofrecer información sobre las rutas de atención disponibles, acompañarla si desea buscar ayuda profesional y recordarle que no es responsable de la violencia sufrida. Evita hacer preguntas que puedan generar culpa o revictimización.\n\nEl apoyo emocional, la empatía y la confidencialidad son elementos fundamentales durante el proceso de recuperación. Un acompañamiento respetuoso puede marcar una diferencia significativa en el bienestar de la persona afectada."
+      ]
+    },
+    {
+      "tag": "acoso_sexual",
+      "patterns": [
+        "¿Qué es el acoso sexual?",
+        "¿Cómo identificar el acoso sexual?",
+        "¿Qué conductas son acoso?",
+        "¿Qué hacer si sufro acoso?",
+        "¿Cómo denunciar el acoso?",
+        "¿Qué ejemplos existen?",
+        "¿Qué comportamientos constituyen acoso?",
+        "¿Qué pasa si alguien me incomoda?",
+        "¿Cómo reconocer el acoso?",
+        "¿Qué debo hacer ante insinuaciones?",
+        "¿Qué es el hostigamiento sexual?",
+        "¿Qué hacer si me acosan en la universidad?",
+        "¿Cómo actuar frente al acoso?",
+        "¿Cómo identificar comentarios inapropiados?",
+        "¿Qué significa acoso verbal?",
+        "¿Qué es el acoso físico?",
+        "¿Qué hacer si me siguen insistiendo?",
+        "¿Cómo protegerme del acoso?",
+        "¿Cómo recibir ayuda?",
+        "¿Qué derechos tengo frente al acoso?"
+      ],
+      "responses": [
+        "El acoso sexual comprende cualquier conducta de naturaleza sexual no deseada que genera intimidación, incomodidad, humillación o un ambiente hostil para la persona afectada. Puede manifestarse mediante comentarios sexuales, insinuaciones, mensajes, contacto físico no consentido, propuestas insistentes o cualquier comportamiento que atente contra la dignidad de una persona.\n\nEl acoso puede ocurrir en espacios educativos, laborales, familiares, comunitarios o digitales, y no depende de la intención de quien realiza la conducta, sino del impacto que genera en la persona afectada.\n\nSi experimentas una situación de acoso, es recomendable buscar apoyo en personas de confianza, conocer las rutas de atención disponibles y acudir a las autoridades o instituciones competentes para recibir orientación y protección."
+      ]
+    },
+    {
+      "tag": "mitos_vsbg",
+      "patterns": [
+        "¿Cuáles son los mitos sobre la violencia sexual?",
+        "¿Qué ideas falsas existen?",
+        "¿La víctima tiene la culpa?",
+        "¿El silencio significa consentimiento?",
+        "¿Solo ocurre con desconocidos?",
+        "¿Qué mitos existen?",
+        "¿Cómo identificar falsas creencias?",
+        "¿Es culpa de la forma de vestir?",
+        "¿La violencia solo ocurre de noche?",
+        "¿Los hombres no pueden ser víctimas?",
+        "¿Qué creencias son incorrectas?",
+        "¿Qué información es falsa?",
+        "¿Cómo combatir los mitos?",
+        "¿Qué errores comete la sociedad?",
+        "¿Qué prejuicios existen?",
+        "¿Cómo afectan los estereotipos?",
+        "¿Por qué existen estos mitos?",
+        "¿Cómo eliminar falsas ideas?",
+        "¿Qué conceptos son equivocados?",
+        "¿Qué debo saber sobre estos mitos?"
+      ],
+      "responses": [
+        "Existen numerosos mitos que dificultan la prevención y atención de la violencia sexual basada en género. Entre ellos se encuentran creer que la víctima es responsable por su forma de vestir, que el silencio equivale a consentimiento, que únicamente los desconocidos cometen agresiones o que las personas afectadas exageran lo ocurrido.\n\nEstas creencias son falsas y contribuyen a justificar la violencia, aumentar la revictimización y disminuir la probabilidad de que las personas busquen ayuda. La responsabilidad siempre recae en quien ejerce la violencia y nunca en la víctima.\n\nCombatir estos mitos mediante la educación, la información basada en evidencia y la promoción del respeto permite construir entornos más seguros y una cultura de rechazo frente a cualquier forma de violencia sexual basada en género."
+      ]
+    }
+  ]
+}
