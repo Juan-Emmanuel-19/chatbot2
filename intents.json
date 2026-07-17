@@ -604,10 +604,64 @@
         "Necesito ayuda para denunciar",
         "¿Quién recibe las denuncias?",
         "¿Dónde puedo acudir?",
-        "¿Cómo funciona una denuncia?"
+        "¿Cómo funciona una denuncia?",
+        "¿Cómo pongo una denuncia?",
+        "¿Cómo denunciar?",
+        "¿Cómo hago una denuncia?",
+        "¿Cuál es el proceso para denunciar?",
+        "¿Cómo denuncio una agresión?",
+        "¿Qué pasos debo seguir para denunciar?",
+        "¿Qué necesito para denunciar?",
+        "¿Cómo presentar una denuncia?",
+        "Explícame cómo denunciar",
+        "¿Cómo denunciar un caso de violencia?",
+        "¿Cómo denunciar un abuso sexual?",
+        "¿Qué hago para poner una denuncia?",
+        "¿Cómo denunciar a una persona?",
+        "¿Qué documentos necesito para denunciar?",
+        "¿Cómo se hace una denuncia?",
+        "¿Qué hago primero para denunciar?",
+        "Paso a paso para denunciar",
+        "Dime los pasos para denunciar",
+        "Explícame el paso a paso",
+        "¿Cuál es el paso a paso para denunciar?",
+        "¿Cómo hago la denuncia paso por paso?",
+        "¿Qué hago primero?",
+        "¿Qué sigue después?",
+        "¿Qué procedimiento debo seguir?",
+        "Quiero saber cómo denunciar paso a paso",
+        "Muéstrame el proceso de denuncia",
+        "¿Cómo interponer una denuncia?",
+        "¿Cómo denunciar un caso de violencia sexual?",
+        "¿Cuál es el procedimiento para denunciar?",
+        "¿Qué sigue después de una agresión?",
+        "¿Dónde pongo una denuncia?",
+        "¿Dónde debo denunciar?",
+        "¿A qué entidad debo acudir?",
+        "¿Tengo que ir a la Fiscalía?",
+        "¿Debo denunciar en la Policía?",
+        "¿Puedo denunciar por internet?",
+        "¿Se puede denunciar en línea?",
+        "¿Cómo funciona la denuncia?",
+        "¿Qué ocurre cuando denuncio?",
+        "¿Qué pasa después de denunciar?",
+        "¿Qué hacen cuando pongo una denuncia?",
+        "¿Necesito pruebas para denunciar?",
+        "¿Puedo denunciar aunque no tenga pruebas?",
+        "¿Puedo denunciar si pasó hace tiempo?",
+        "¿Puedo denunciar si soy estudiante?",
+        "¿La universidad puede ayudarme a denunciar?",
+        "¿Cómo denuncio en Colombia?",
+        "¿Cuál es el proceso de denuncia en Colombia?",
+        "¿Me puedes decir el procedimiento completo?",
+        "¿Cómo reporto una agresión sexual?",
+        "¿Cómo reporto un caso de acoso sexual?",
+        "¿Qué hago si quiero denunciar?",
+        "Necesito poner una denuncia"
       ],
       "responses": [
-        "Si has sido víctima de violencia sexual puedes presentar una denuncia ante la Fiscalía General de la Nación. También puedes acudir inicialmente a un centro de salud, donde recibirás atención integral y orientación sobre la ruta correspondiente. Si el hecho representa un peligro inmediato, comunícate con la línea de emergencias 123.\n\nNo es obligatorio llegar con un abogado para presentar una denuncia. Las autoridades tienen el deber de orientarte, recibir tu información y garantizar un trato digno, respetuoso y confidencial.\n\nAdemás de la denuncia penal, puedes activar las rutas de atención de tu institución educativa o de las entidades competentes para recibir apoyo psicológico, médico y jurídico."
+        "Si has sido víctima de violencia sexual puedes presentar una denuncia ante la Fiscalía General de la Nación. También puedes acudir inicialmente a un centro de salud, donde recibirás atención integral y orientación sobre la ruta correspondiente. Si el hecho representa un peligro inmediato, comunícate con la línea de emergencias 123.\n\nNo es obligatorio llegar con un abogado para presentar una denuncia. Las autoridades tienen el deber de orientarte, recibir tu información y garantizar un trato digno, respetuoso y confidencial.\n\nAdemás de la denuncia penal, puedes activar las rutas de atención de tu institución educativa o de las entidades competentes para recibir apoyo psicológico, médico y jurídico.",
+        "En Colombia puedes presentar una denuncia siguiendo estos pasos:\n\n1. Si tu integridad está en peligro inmediato, comunícate con la línea de emergencias 123 o busca un lugar seguro.\n\n2. Si hubo una agresión sexual reciente, acude lo antes posible a un centro de salud para recibir atención médica integral. Allí pueden activar la ruta de atención.\n\n3. Presenta la denuncia ante la Fiscalía General de la Nación, de manera presencial o virtual.\n\n4. Si cuentas con pruebas como mensajes, fotografías, videos, conversaciones o datos de posibles testigos, consérvalas y entrégalas durante el proceso. No son obligatorias para denunciar.\n\n5. Solicita información sobre las medidas de protección disponibles si sientes que existe riesgo para tu seguridad.\n\n6. Da seguimiento al proceso utilizando el número de radicado que te entreguen.\n\nRecuerda que denunciar es un derecho. Puedes recibir orientación jurídica, atención psicológica y acompañamiento durante todo el proceso."
       ]
     },
     {
@@ -625,10 +679,25 @@
         "¿Qué institución debo buscar?",
         "¿Dónde presento mi denuncia?",
         "¿Qué autoridad me ayuda?",
-        "¿Dónde puedo acudir?"
+        "¿Dónde puedo acudir?",
+        "¿Dónde puedo denunciar?",
+        "¿Dónde pongo una denuncia?",
+        "¿A qué entidad debo acudir?",
+        "¿Dónde reporto una agresión?",
+        "¿Dónde denunciar violencia sexual?",
+        "¿Qué institución recibe la denuncia?",
+        "¿Dónde hago la denuncia?",
+        "¿Quién atiende estos casos?",
+        "¿Qué autoridad recibe denuncias?",
+        "¿A dónde voy para denunciar?",
+        "¿Qué institución me ayuda?",
+        "¿Qué entidad investiga estos casos?",
+        "¿Dónde denuncio un abuso?",
+        "¿Quién recibe denuncias de violencia sexual?"
       ],
       "responses": [
-        "En Colombia puedes acudir a la Fiscalía General de la Nación para presentar una denuncia penal. También puedes acercarte a la Policía Nacional, a un centro de salud, a las Comisarías de Familia cuando corresponda o activar la ruta institucional de tu universidad si el hecho ocurrió en ese contexto.\n\nCada entidad tiene funciones específicas, pero todas deben orientarte para que recibas la atención que necesitas y accedas a las rutas de protección establecidas por la ley."
+        "En Colombia puedes acudir a la Fiscalía General de la Nación para presentar una denuncia penal. También puedes acercarte a la Policía Nacional, a un centro de salud, a las Comisarías de Familia cuando corresponda o activar la ruta institucional de tu universidad si el hecho ocurrió en ese contexto.\n\nCada entidad tiene funciones específicas, pero todas deben orientarte para que recibas la atención que necesitas y accedas a las rutas de protección establecidas por la ley.",
+        "En Colombia puedes acudir a varias entidades según tu situación:\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal.\n\n• Policía Nacional (123): si existe una emergencia o riesgo inmediato.\n\n• Comisarías de Familia: brindan medidas de protección en casos de violencia intrafamiliar.\n\n• Instituto Nacional de Medicina Legal: realiza valoraciones médico-legales cuando son requeridas por la autoridad competente.\n\n• Instituciones Prestadoras de Salud (IPS): deben brindar atención médica integral a las víctimas de violencia sexual.\n\n• En universidades, también puedes acudir a la ruta institucional de atención o a la oficina de bienestar universitario cuando exista un protocolo para estos casos."
       ]
     },
     {
@@ -682,110 +751,6 @@
       ],
       "responses": [
         "Las víctimas tienen derecho a recibir atención médica, psicológica y jurídica; recibir información clara sobre el proceso; ser tratadas con dignidad y respeto; que se proteja su identidad; acceder a medidas de protección cuando sean necesarias; otorgar o negar su consentimiento para determinados procedimientos médicos; y recibir atención sin discriminación ni revictimización.\n\nEstos derechos están protegidos por la legislación colombiana y deben ser garantizados por las instituciones encargadas de la atención."
-      ]
-    },
-    {
-      "tag": "como_denunciar",
-      "patterns": [
-        "¿Cómo pongo una denuncia?",
-        "¿Cómo denunciar?",
-        "¿Cómo hago una denuncia?",
-        "¿Qué debo hacer para denunciar?",
-        "¿Cuál es el proceso para denunciar?",
-        "¿Cómo denuncio una agresión?",
-        "¿Cómo denunciar violencia sexual?",
-        "¿Qué pasos debo seguir para denunciar?",
-        "¿Qué necesito para denunciar?",
-        "¿Cómo presentar una denuncia?",
-        "Explícame cómo denunciar",
-        "¿Cómo inicio una denuncia?",
-        "¿Cómo reporto un caso?",
-        "¿Cómo denunciar un caso de violencia?",
-        "¿Cómo denunciar un abuso sexual?",
-        "¿Qué hago para poner una denuncia?",
-        "¿Cómo denunciar a una persona?",
-        "¿Qué documentos necesito para denunciar?",
-        "¿Cómo se hace una denuncia?",
-        "¿Qué hago primero para denunciar?",
-        "Paso a paso para denunciar",
-        "Dime los pasos para denunciar",
-        "Explícame el paso a paso",
-        "¿Cuál es el paso a paso para denunciar?",
-        "¿Cómo hago la denuncia paso por paso?",
-        "¿Qué hago primero?",
-        "¿Qué sigue después?",
-        "¿Qué procedimiento debo seguir?",
-        "Quiero saber cómo denunciar paso a paso",
-        "Muéstrame el proceso de denuncia",
-        "¿Cómo presentar una denuncia?",
-        "¿Cómo puedo denunciar?",
-        "¿Cómo hago una denuncia?",
-        "¿Cómo interponer una denuncia?",
-        "¿Cómo denunciar un caso de violencia sexual?",
-        "¿Cuál es el procedimiento para denunciar?",
-        "¿Cuál es el paso a paso para denunciar?",
-        "Explícame cómo denunciar",
-        "¿Qué debo hacer para denunciar?",
-        "¿Qué hago primero para denunciar?",
-        "¿Qué sigue después de una agresión?",
-        "¿Qué pasos debo seguir para denunciar?",
-        "¿Qué necesito para denunciar?",
-        "¿Dónde pongo una denuncia?",
-        "¿Dónde debo denunciar?",
-        "¿A qué entidad debo acudir?",
-        "¿Tengo que ir a la Fiscalía?",
-        "¿Debo denunciar en la Policía?",
-        "¿Puedo denunciar por internet?",
-        "¿Se puede denunciar en línea?",
-        "¿Cómo funciona la denuncia?",
-        "¿Qué ocurre cuando denuncio?",
-        "¿Qué pasa después de denunciar?",
-        "¿Qué hacen cuando pongo una denuncia?",
-        "¿Qué documentos necesito para denunciar?",
-        "¿Necesito pruebas para denunciar?",
-        "¿Puedo denunciar aunque no tenga pruebas?",
-        "¿Puedo denunciar si pasó hace tiempo?",
-        "¿Puedo denunciar si soy estudiante?",
-        "¿La universidad puede ayudarme a denunciar?",
-        "¿Cómo denuncio en Colombia?",
-        "¿Cuál es el proceso de denuncia en Colombia?",
-        "Explícame el paso a paso",
-        "¿Me puedes decir el procedimiento completo?",
-        "¿Cómo inicio una denuncia?",
-        "¿Cómo reporto una agresión sexual?",
-        "¿Cómo reporto un caso de acoso sexual?",
-        "¿Qué hago si quiero denunciar?",
-        "Necesito poner una denuncia",
-        "Quiero denunciar"
-      ],
-      "responses": [
-        "En Colombia puedes presentar una denuncia siguiendo estos pasos:\n\n1. Si tu integridad está en peligro inmediato, comunícate con la línea de emergencias 123 o busca un lugar seguro.\n\n2. Si hubo una agresión sexual reciente, acude lo antes posible a un centro de salud para recibir atención médica integral. Allí pueden activar la ruta de atención.\n\n3. Presenta la denuncia ante la Fiscalía General de la Nación, de manera presencial o virtual.\n\n4. Si cuentas con pruebas como mensajes, fotografías, videos, conversaciones o datos de posibles testigos, consérvalas y entrégalas durante el proceso. No son obligatorias para denunciar.\n\n5. Solicita información sobre las medidas de protección disponibles si sientes que existe riesgo para tu seguridad.\n\n6. Da seguimiento al proceso utilizando el número de radicado que te entreguen.\n\nRecuerda que denunciar es un derecho. Puedes recibir orientación jurídica, atención psicológica y acompañamiento durante todo el proceso."
-      ]
-    },
-    {
-      "tag": "donde_denunciar",
-      "patterns": [
-        "¿Dónde denuncio?",
-        "¿Dónde puedo denunciar?",
-        "¿Dónde pongo una denuncia?",
-        "¿A qué entidad debo acudir?",
-        "¿Quién recibe la denuncia?",
-        "¿Dónde reporto una agresión?",
-        "¿Dónde denunciar violencia sexual?",
-        "¿Quién puede ayudarme a denunciar?",
-        "¿Qué institución recibe la denuncia?",
-        "¿Dónde hago la denuncia?",
-        "¿Dónde puedo acudir?",
-        "¿Quién atiende estos casos?",
-        "¿Qué autoridad recibe denuncias?",
-        "¿A dónde voy para denunciar?",
-        "¿Qué institución me ayuda?",
-        "¿Qué entidad investiga estos casos?",
-        "¿Dónde denuncio un abuso?",
-        "¿Quién recibe denuncias de violencia sexual?"
-      ],
-      "responses": [
-        "En Colombia puedes acudir a varias entidades según tu situación:\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal.\n\n• Policía Nacional (123): si existe una emergencia o riesgo inmediato.\n\n• Comisarías de Familia: brindan medidas de protección en casos de violencia intrafamiliar.\n\n• Instituto Nacional de Medicina Legal: realiza valoraciones médico-legales cuando son requeridas por la autoridad competente.\n\n• Instituciones Prestadoras de Salud (IPS): deben brindar atención médica integral a las víctimas de violencia sexual.\n\n• En universidades, también puedes acudir a la ruta institucional de atención o a la oficina de bienestar universitario cuando exista un protocolo para estos casos."
       ]
     },
     {
@@ -855,10 +820,15 @@
         "¿Qué líneas de ayuda existen?",
         "¿Dónde puedo recibir atención psicológica?",
         "¿Qué rutas de atención existen en Colombia?",
-        "¿Cómo funciona la ruta de atención?"
+        "¿Cómo funciona la ruta de atención?",
+        "¿Dónde puedo pedir ayuda?",
+        "¿Qué rutas de atención existen?",
+        "¿Dónde encuentro ayuda?",
+        "¿Dónde atienden estos casos?"
       ],
       "responses": [
-        "En Colombia existen diferentes instituciones encargadas de brindar orientación, atención, protección y acompañamiento a las víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con los Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), las Unidades de Reacción Inmediata (URI), las Salas de Atención al Usuario (SAU) y los Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: en caso de emergencia inmediata puedes comunicarte a la línea 123. También puedes acudir a cualquier estación de policía o comunicarte con la línea 155 para recibir orientación sobre violencia basada en género.\n\n• Instituciones de Salud: hospitales, clínicas y centros de salud públicos o privados deben brindar atención médica inmediata, gratuita y prioritaria a las víctimas de violencia sexual. No es necesario haber presentado una denuncia para recibir atención médica.\n\n• Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales que pueden apoyar una investigación judicial cuando la persona decide denunciar.\n\n• Comisarías de Familia: brindan medidas de protección y orientación en casos de violencia dentro del contexto familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): atiende y protege a niños, niñas y adolescentes víctimas de violencia. La Línea 141 ofrece orientación especializada.\n\n• Defensoría del Pueblo y Personerías: ofrecen orientación sobre derechos, acompañamiento y acceso a la justicia.\n\nSi tu vida o tu integridad están en peligro inmediato, llama al 123 o busca ayuda en la estación de policía o centro de salud más cercano."
+        "En Colombia existen diferentes instituciones encargadas de brindar orientación, atención, protección y acompañamiento a las víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con los Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), las Unidades de Reacción Inmediata (URI), las Salas de Atención al Usuario (SAU) y los Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: en caso de emergencia inmediata puedes comunicarte a la línea 123. También puedes acudir a cualquier estación de policía o comunicarte con la línea 155 para recibir orientación sobre violencia basada en género.\n\n• Instituciones de Salud: hospitales, clínicas y centros de salud públicos o privados deben brindar atención médica inmediata, gratuita y prioritaria a las víctimas de violencia sexual. No es necesario haber presentado una denuncia para recibir atención médica.\n\n• Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales que pueden apoyar una investigación judicial cuando la persona decide denunciar.\n\n• Comisarías de Familia: brindan medidas de protección y orientación en casos de violencia dentro del contexto familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): atiende y protege a niños, niñas y adolescentes víctimas de violencia. La Línea 141 ofrece orientación especializada.\n\n• Defensoría del Pueblo y Personerías: ofrecen orientación sobre derechos, acompañamiento y acceso a la justicia.\n\nSi tu vida o tu integridad están en peligro inmediato, llama al 123 o busca ayuda en la estación de policía o centro de salud más cercano.",
+        "En Colombia existen diferentes entidades encargadas de orientar, proteger y atender a las personas víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), Unidades de Reacción Inmediata (URI), Salas de Atención al Usuario (SAU) y Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: puedes acudir a cualquier estación de policía o comunicarte al 123 si existe una emergencia inmediata.\n\n• Instituciones Prestadoras de Servicios de Salud (IPS): hospitales, clínicas y centros de salud deben brindar atención médica inmediata, prioritaria y gratuita a las víctimas, incluso si aún no se ha presentado una denuncia.\n\n• Instituto Nacional de Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales cuando son requeridos dentro de un proceso judicial.\n\n• Comisarías de Familia: brindan medidas de protección cuando la violencia ocurre en el ámbito familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): protege a niños, niñas y adolescentes víctimas de violencia. También presta orientación mediante la Línea 141.\n\n• Defensoría del Pueblo y Personerías Municipales: brindan orientación sobre derechos, acceso a la justicia y acompañamiento institucional.\n\nSi existe peligro inmediato para tu vida o integridad, comunícate inmediatamente con la línea 123 o acude al centro de salud más cercano."
       ]
     },
     {
@@ -877,39 +847,6 @@
       ],
       "responses": [
         "Estas son algunas de las principales líneas de atención en Colombia:\n\n• 123: Emergencias (Policía, ambulancia y atención inmediata).\n• 155: Orientación para mujeres víctimas de violencia.\n• 122: Fiscalía General de la Nación.\n• 141: ICBF para casos relacionados con niños, niñas y adolescentes.\n\nEstas líneas ofrecen orientación y, cuando corresponde, ayudan a activar la ruta de atención y protección."
-      ]
-    },
-    {
-      "tag": "lugares_rutas_atencion",
-      "patterns": [
-        "¿Dónde puedo recibir ayuda?",
-        "¿Dónde puedo pedir ayuda?",
-        "¿A dónde puedo acudir?",
-        "¿Qué instituciones me pueden ayudar?",
-        "¿Qué entidades atienden estos casos?",
-        "¿Dónde me pueden orientar?",
-        "¿Qué lugares atienden víctimas?",
-        "¿Qué instituciones existen?",
-        "¿Qué centros de atención hay?",
-        "¿Quién puede ayudarme?",
-        "¿Dónde denunciar violencia sexual?",
-        "¿Dónde puedo denunciar?",
-        "¿Qué hospitales atienden estos casos?",
-        "¿Dónde queda el CAIVAS?",
-        "¿Qué es un CAIVAS?",
-        "¿Qué hace la Fiscalía?",
-        "¿Qué hace la Comisaría de Familia?",
-        "¿Qué hace Medicina Legal?",
-        "¿Qué hace el ICBF?",
-        "¿Qué entidades protegen a las víctimas?",
-        "¿Qué rutas de atención existen?",
-        "¿Cómo funciona la ruta de atención?",
-        "¿Dónde encuentro ayuda?",
-        "¿Dónde atienden estos casos?",
-        "¿Dónde puedo recibir atención psicológica?"
-      ],
-      "responses": [
-        "En Colombia existen diferentes entidades encargadas de orientar, proteger y atender a las personas víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), Unidades de Reacción Inmediata (URI), Salas de Atención al Usuario (SAU) y Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: puedes acudir a cualquier estación de policía o comunicarte al 123 si existe una emergencia inmediata.\n\n• Instituciones Prestadoras de Servicios de Salud (IPS): hospitales, clínicas y centros de salud deben brindar atención médica inmediata, prioritaria y gratuita a las víctimas, incluso si aún no se ha presentado una denuncia.\n\n• Instituto Nacional de Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales cuando son requeridos dentro de un proceso judicial.\n\n• Comisarías de Familia: brindan medidas de protección cuando la violencia ocurre en el ámbito familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): protege a niños, niñas y adolescentes víctimas de violencia. También presta orientación mediante la Línea 141.\n\n• Defensoría del Pueblo y Personerías Municipales: brindan orientación sobre derechos, acceso a la justicia y acompañamiento institucional.\n\nSi existe peligro inmediato para tu vida o integridad, comunícate inmediatamente con la línea 123 o acude al centro de salud más cercano."
       ]
     },
     {
@@ -1093,5 +1030,5 @@
         "La institución a la que debes acudir depende de tu situación:\n\n• 🚨 Si estás en peligro inmediato o tu integridad corre riesgo, llama a la Policía Nacional a través de la línea 123.\n\n• 🏥 Si acabas de sufrir una agresión sexual, acude de inmediato al hospital o IPS más cercana. Allí recibirás atención médica urgente, atención psicológica inicial y se activará la ruta de atención, incluso si aún no has presentado una denuncia.\n\n• ⚖️ Si deseas denunciar un delito o iniciar una investigación penal, puedes acudir a la Fiscalía General de la Nación, a un CAIVAS (Centro de Atención Integral a Víctimas de Abuso Sexual), a una URI o presentar la denuncia mediante los canales oficiales de la Fiscalía.\n\n• 👨‍👩‍👧 Si la víctima es un niño, niña o adolescente, también puedes acudir al Instituto Colombiano de Bienestar Familiar (ICBF), que activará las medidas de protección correspondientes.\n\n• 🛡️ Si la violencia ocurre dentro del entorno familiar o necesitas medidas inmediatas de protección, puedes acudir a una Comisaría de Familia.\n\n• 📄 Si necesitas orientación sobre tus derechos o acompañamiento institucional, puedes acudir a la Defensoría del Pueblo.\n\nSi me cuentas un poco más sobre tu situación, puedo orientarte sobre cuál de estas instituciones sería la más adecuada para tu caso."
       ]
     }
-  ] 
+  ]
 }
