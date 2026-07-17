@@ -115,7 +115,12 @@ def predict_class(sentence, model):
     print("Salida del modelo:", res, flush=True)
     print("Valor máximo:", np.max(res), flush=True)
     print("Índice máximo:", np.argmax(res), flush=True)
-    print("Clase predicha:", classes[np.argmax(res)], flush=True)
+    print("="*50)
+
+    for i, c in enumerate(classes):
+        print(c, "->", float(res[i]))
+
+    print("="*50)
     
     print("5. Despues del model.predict()", flush=True)
     
