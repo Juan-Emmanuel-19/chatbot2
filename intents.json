@@ -415,34 +415,6 @@
       ]
     },
     {
-      "tag": "ruta_atencion",
-      "patterns": [
-        "¿Cuál es la ruta de atención?",
-        "¿Cómo denunciar?",
-        "¿Qué hago después de una agresión?",
-        "¿Dónde denuncio?",
-        "¿Cómo funciona la ruta de atención?",
-        "¿Qué instituciones atienden estos casos?",
-        "¿Qué debo hacer primero?",
-        "¿Cómo recibir atención?",
-        "¿Qué pasos debo seguir?",
-        "¿Cómo activar la ruta de atención?",
-        "¿Qué hago si fui víctima?",
-        "¿Qué servicios existen?",
-        "¿Cómo buscar ayuda institucional?",
-        "¿Qué entidades pueden ayudarme?",
-        "¿Qué ocurre después de denunciar?",
-        "¿Cómo acceder a apoyo psicológico?",
-        "¿Cómo recibir orientación jurídica?",
-        "¿Qué debo hacer inmediatamente?",
-        "¿Cómo solicitar protección?",
-        "¿Cómo funciona el acompañamiento institucional?"
-      ],
-      "responses": [
-        "La ruta de atención tiene como propósito garantizar la protección integral de las personas que han sido víctimas de violencia sexual basada en género. Dependiendo de la situación, puede incluir atención médica inmediata, apoyo psicológico, orientación jurídica, medidas de protección y acompañamiento durante todo el proceso.\n\nEs recomendable acudir lo antes posible a las autoridades competentes, a los servicios de salud o a las rutas establecidas por la institución educativa. Allí recibirás orientación sobre los pasos a seguir y los servicios disponibles según tu caso.\n\nCada situación es diferente, por lo que las medidas de atención pueden variar. Lo más importante es recordar que ninguna persona debe enfrentar sola una situación de violencia y que existen instituciones preparadas para brindar apoyo especializado."
-      ]
-    },
-    {
       "tag": "educacion_sensibilizacion",
       "patterns": [
         "¿Por qué es importante la educación?",
