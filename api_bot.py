@@ -125,28 +125,49 @@ def predict_class(sentence, model):
     print("5. Despues del model.predict()", flush=True)
     
 
-    ERROR_THRESHOLD = 0.05
+# ===========================================
+# Mostrar TODAS las probabilidades
+# ===========================================
 
-    results = [
-        [i, r]
-        for i, r in enumerate(res)
-        if r > ERROR_THRESHOLD
-    ]
+    print("\n==============================")
+    print("Probabilidades del modelo")
+    print("==============================")
 
-    results.sort(key=lambda x: x[1], reverse=True)
+    todas = []
+
+    for i, prob in enumerate(res):
+        todas.append((classes[i], float(prob)))
+
+    # Ordenar de mayor a menor
+    todas.sort(key=lambda x: x[1], reverse=True)
+
+    for clase, prob in todas:
+        print(f"{clase:35} -> {prob:.4f}")
+
+    print("==============================\n")
+
+# ===========================================
+# Seleccionar las mejores
+# ===========================================
+
+    ERROR_THRESHOLD = 0.30
 
     return_list = []
 
-    for r in results:
+    for clase, prob in todas:
 
-        return_list.append({
-            "intent": classes[r[0]],
-            "probability": str(r[1])
+        if prob >= ERROR_THRESHOLD:
+
+            return_list.append({
+                "intent": clase,
+                "probability": str(prob)
         })
 
-    print("Resultados:", results, flush=True)
-    print("Return list:", return_list, flush=True)
-    
+    print("Top intenciones:")
+
+    for item in return_list[:5]:
+        print(item)
+
     return return_list
 
 
