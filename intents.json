@@ -137,14 +137,11 @@
       "patterns": [
         "¿Qué hago si estoy en riesgo?",
         "¿Qué debo hacer?",
-        "Necesito ayuda",
-        "¿Cómo actuar?",
+        "¿Cómo actuar frente a una amenaza?",
         "¿Qué hago si me siento en peligro?",
-        "¿Qué pasos debo seguir?",
-        "¿A quién acudo?",
-        "¿Dónde busco ayuda?",
         "¿Cómo protegerme?",
-        "¿Qué hago si temo por mi seguridad?"
+        "¿Qué hago si temo por mi seguridad?",
+        "Pasos para protegerme"
       ],
       "responses": [
         "Si consideras que estás enfrentando una situación de riesgo, lo primero es priorizar tu seguridad. Busca un lugar seguro, comunícate con una persona de confianza y procura no enfrentar sola la situación.\n\nTambién es recomendable acudir a las rutas de atención disponibles en tu institución educativa, centros de salud o autoridades competentes. Si el riesgo es inmediato, contacta a los servicios de emergencia.\n\nRecuerda que pedir ayuda no significa debilidad. Existen profesionales e instituciones preparadas para brindarte orientación, acompañamiento y protección."
@@ -390,25 +387,13 @@
       "tag": "redes_apoyo",
       "patterns": [
         "¿Qué son las redes de apoyo?",
-        "¿Quién puede ayudarme?",
-        "¿Dónde puedo buscar ayuda?",
-        "¿Cómo pedir ayuda?",
-        "¿Qué hago si necesito apoyo?",
-        "¿Quién puede acompañarme?",
-        "¿A quién puedo acudir?",
-        "¿Qué instituciones ayudan?",
-        "¿Quién puede orientarme?",
-        "¿Cómo consigo apoyo?",
+        "¿Quién puede escucharme?",
+        "¿Quién puede acompañarme moralmente?",
+        "¿Cómo pedir ayuda a mis conocidos?",
         "¿Qué personas conforman una red de apoyo?",
         "¿Por qué son importantes las redes de apoyo?",
         "¿Qué debo hacer si me siento sola?",
-        "¿Cómo fortalecer mi red de apoyo?",
-        "¿Qué apoyo ofrece la universidad?",
-        "¿Quién puede escucharme?",
-        "¿Cómo encontrar ayuda?",
-        "¿Quién puede protegerme?",
-        "¿Qué recursos existen para las víctimas?",
-        "¿Cómo acceder a una red de apoyo?"
+        "¿Cómo fortalecer mi red de apoyo social?"
       ],
       "responses": [
         "Las redes de apoyo son el conjunto de personas, instituciones y organizaciones que pueden brindar ayuda emocional, orientación, acompañamiento y protección frente a una situación de violencia. Estas redes pueden estar conformadas por familiares, amistades, docentes, profesionales de la salud, psicólogos, trabajadores sociales, autoridades competentes y entidades especializadas.\n\nContar con una red de apoyo permite reducir el aislamiento, recibir información confiable y acceder con mayor facilidad a las rutas de atención disponibles. Pedir ayuda es una acción de cuidado personal y nunca debe interpretarse como una señal de debilidad.\n\nFortalecer estas redes favorece la recuperación emocional, aumenta la sensación de seguridad y facilita la toma de decisiones informadas frente a situaciones de riesgo."
@@ -637,43 +622,6 @@
       ]
     },
     {
-      "tag": "lugares_rutas_atencion",
-      "patterns": [
-        "¿Dónde puedo recibir ayuda?",
-        "¿A dónde puedo acudir?",
-        "¿Qué instituciones me pueden ayudar?",
-        "¿Qué entidades atienden estos casos?",
-        "¿Dónde me pueden orientar?",
-        "¿Dónde puedo pedir apoyo?",
-        "¿Qué lugares atienden víctimas?",
-        "¿Qué instituciones existen?",
-        "¿Qué centros de atención hay?",
-        "¿Quién puede ayudarme?",
-        "¿Dónde denunciar violencia sexual?",
-        "¿Dónde puedo denunciar?",
-        "¿Qué hospitales atienden estos casos?",
-        "¿Dónde queda el CAIVAS?",
-        "¿Qué es un CAIVAS?",
-        "¿Qué hace la Fiscalía?",
-        "¿Qué hace la Comisaría de Familia?",
-        "¿Qué hace Medicina Legal?",
-        "¿Qué hace el ICBF?",
-        "¿Qué entidades protegen a las víctimas?",
-        "¿Qué líneas de ayuda existen?",
-        "¿Dónde puedo recibir atención psicológica?",
-        "¿Qué rutas de atención existen en Colombia?",
-        "¿Cómo funciona la ruta de atención?",
-        "¿Dónde puedo pedir ayuda?",
-        "¿Qué rutas de atención existen?",
-        "¿Dónde encuentro ayuda?",
-        "¿Dónde atienden estos casos?"
-      ],
-      "responses": [
-        "En Colombia existen diferentes instituciones encargadas de brindar orientación, atención, protección y acompañamiento a las víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con los Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), las Unidades de Reacción Inmediata (URI), las Salas de Atención al Usuario (SAU) y los Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: en caso de emergencia inmediata puedes comunicarte a la línea 123. También puedes acudir a cualquier estación de policía o comunicarte con la línea 155 para recibir orientación sobre violencia basada en género.\n\n• Instituciones de Salud: hospitales, clínicas y centros de salud públicos o privados deben brindar atención médica inmediata, gratuita y prioritaria a las víctimas de violencia sexual. No es necesario haber presentado una denuncia para recibir atención médica.\n\n• Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales que pueden apoyar una investigación judicial cuando la persona decide denunciar.\n\n• Comisarías de Familia: brindan medidas de protección y orientación en casos de violencia dentro del contexto familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): atiende y protege a niños, niñas y adolescentes víctimas de violencia. La Línea 141 ofrece orientación especializada.\n\n• Defensoría del Pueblo y Personerías: ofrecen orientación sobre derechos, acompañamiento y acceso a la justicia.\n\nSi tu vida o tu integridad están en peligro inmediato, llama al 123 o busca ayuda en la estación de policía o centro de salud más cercano.",
-        "En Colombia existen diferentes entidades encargadas de orientar, proteger y atender a las personas víctimas de violencia sexual basada en género.\n\n• Fiscalía General de la Nación: recibe denuncias e inicia la investigación penal. También cuenta con Centros de Atención Integral a Víctimas de Abuso Sexual (CAIVAS), Unidades de Reacción Inmediata (URI), Salas de Atención al Usuario (SAU) y Centros de Atención Penal Integral a Víctimas (CAPIV).\n\n• Policía Nacional: puedes acudir a cualquier estación de policía o comunicarte al 123 si existe una emergencia inmediata.\n\n• Instituciones Prestadoras de Servicios de Salud (IPS): hospitales, clínicas y centros de salud deben brindar atención médica inmediata, prioritaria y gratuita a las víctimas, incluso si aún no se ha presentado una denuncia.\n\n• Instituto Nacional de Medicina Legal y Ciencias Forenses: realiza los exámenes médico-legales cuando son requeridos dentro de un proceso judicial.\n\n• Comisarías de Familia: brindan medidas de protección cuando la violencia ocurre en el ámbito familiar.\n\n• Instituto Colombiano de Bienestar Familiar (ICBF): protege a niños, niñas y adolescentes víctimas de violencia. También presta orientación mediante la Línea 141.\n\n• Defensoría del Pueblo y Personerías Municipales: brindan orientación sobre derechos, acceso a la justicia y acompañamiento institucional.\n\nSi existe peligro inmediato para tu vida o integridad, comunícate inmediatamente con la línea 123 o acude al centro de salud más cercano."
-      ]
-    },
-    {
       "tag": "lineas_atencion",
       "patterns": [
         "¿Qué líneas de ayuda existen?",
@@ -713,6 +661,26 @@
       ],
       "responses": [
         "Cada institución cumple una función diferente dentro de la ruta de atención:\n\n• Fiscalía General de la Nación: recibe la denuncia, dirige la investigación y presenta el caso ante la justicia.\n\n• CAIVAS: ofrece atención especializada a víctimas de violencia sexual y facilita el acceso a la investigación penal.\n\n• Medicina Legal: practica valoraciones médico-legales que pueden servir como evidencia en un proceso judicial.\n\n• Instituciones de Salud: brindan atención médica, psicológica y tratamiento inmediato.\n\n• Comisarías de Familia: adoptan medidas de protección cuando existe violencia dentro del núcleo familiar.\n\n• Policía Nacional: atiende situaciones de emergencia, protege a la víctima y orienta sobre la denuncia.\n\n• ICBF: protege los derechos de niños, niñas y adolescentes cuando son víctimas de cualquier forma de violencia.\n\n• Defensoría del Pueblo y Personerías: orientan sobre los derechos de las víctimas y facilitan el acceso a las instituciones competentes."
+      ]
+    },
+    {
+      "tag": "instituciones_rutas_ayuda",
+      "patterns": [
+        "¿Dónde puedo recibir ayuda?",
+        "¿A dónde puedo acudir?",
+        "¿Qué instituciones me pueden ayudar?",
+        "¿Dónde busco ayuda institucional?",
+        "¿Qué lugares atienden víctimas?",
+        "¿Qué centros de atención hay?",
+        "No sé a dónde ir",
+        "¿Qué entidad me puede ayudar?",
+        "¿A qué institución debo ir?",
+        "¿Dónde encuentro ayuda oficial?",
+        "¿Qué rutas de atención existen en Colombia?",
+        "¿Cómo funciona la ruta de atención?"
+      ],
+      "responses": [
+        "La institución a la que debes acudir depende de tu situación:\n\n• 🚨 Peligro inmediato: Llama a la Policía Nacional al 123.\n• 🏥 Atención médica urgente: Acude al hospital o IPS más cercana. Recibirás atención integral sin necesidad de haber denunciado.\n• ⚖️ Denuncias e investigación: Fiscalía General de la Nación, CAIVAS o URI.\n• 👨‍👩‍👧 Menores de edad: Instituto Colombiano de Bienestar Familiar (ICBF).\n• 🛡️ Violencia familiar: Comisaría de Familia.\n• 📄 Orientación de derechos: Defensoría del Pueblo.\n\nSi me cuentas un poco más sobre tu situación, puedo orientarte mejor sobre cuál elegir."
       ]
     },
     {
@@ -866,44 +834,6 @@
       ],
       "responses": [
         "La Defensoría del Pueblo orienta a las personas sobre sus derechos, facilita el acceso a la justicia y acompaña a quienes requieren protección o asesoría institucional. También promueve la defensa de los derechos humanos y puede orientar sobre las rutas de atención disponibles."
-      ]
-    },
-    {
-      "tag": "que_institucion_necesito",
-      "patterns": [
-        "No sé a dónde ir",
-        "¿Quién me puede ayudar?",
-        "¿Qué institución necesito?",
-        "¿A dónde debo acudir?",
-        "¿Dónde busco ayuda?",
-        "¿Quién recibe estos casos?",
-        "¿Qué entidad me puede ayudar?",
-        "¿Qué hago primero?",
-        "¿Dónde debo denunciar?",
-        "No sé qué hacer",
-        "¿Quién me orienta?",
-        "¿A quién debo acudir?",
-        "¿Qué institución corresponde a mi caso?",
-        "¿Quién protege mis derechos?",
-        "¿Quién investiga estos casos?",
-        "¿Dónde puedo recibir atención?",
-        "¿Quién puede atenderme?",
-        "¿Qué entidad debo buscar?",
-        "¿Qué institución debo contactar?",
-        "¿Cómo sé a qué institución ir?",
-        "¿Quién se encarga de estos casos?",
-        "¿Qué lugar debo visitar?",
-        "¿Dónde encuentro ayuda?",
-        "Necesito orientación",
-        "Necesito saber a dónde acudir",
-        "¿Quién puede acompañarme?",
-        "¿Qué entidad debo visitar primero?",
-        "¿Dónde me pueden orientar?",
-        "No sé qué institución buscar",
-        "¿Cuál es la institución adecuada?"
-      ],
-      "responses": [
-        "La institución a la que debes acudir depende de tu situación:\n\n• 🚨 Si estás en peligro inmediato o tu integridad corre riesgo, llama a la Policía Nacional a través de la línea 123.\n\n• 🏥 Si acabas de sufrir una agresión sexual, acude de inmediato al hospital o IPS más cercana. Allí recibirás atención médica urgente, atención psicológica inicial y se activará la ruta de atención, incluso si aún no has presentado una denuncia.\n\n• ⚖️ Si deseas denunciar un delito o iniciar una investigación penal, puedes acudir a la Fiscalía General de la Nación, a un CAIVAS (Centro de Atención Integral a Víctimas de Abuso Sexual), a una URI o presentar la denuncia mediante los canales oficiales de la Fiscalía.\n\n• 👨‍👩‍👧 Si la víctima es un niño, niña o adolescente, también puedes acudir al Instituto Colombiano de Bienestar Familiar (ICBF), que activará las medidas de protección correspondientes.\n\n• 🛡️ Si la violencia ocurre dentro del entorno familiar o necesitas medidas inmediatas de protección, puedes acudir a una Comisaría de Familia.\n\n• 📄 Si necesitas orientación sobre tus derechos o acompañamiento institucional, puedes acudir a la Defensoría del Pueblo.\n\nSi me cuentas un poco más sobre tu situación, puedo orientarte sobre cuál de estas instituciones sería la más adecuada para tu caso."
       ]
     }
   ]
