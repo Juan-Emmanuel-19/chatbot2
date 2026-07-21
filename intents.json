@@ -614,7 +614,6 @@
         "¿Dónde denuncio?",
         "¿Dónde pongo una denuncia?",
         "¿A qué entidad debo acudir para denunciar?",
-        "¿Cuál es el paso a paso para denunciar?",
         "Quiero denunciar",
         "Necesito denunciar",
         "¿Qué debo hacer para denunciar?",
@@ -748,6 +747,40 @@
       ],
       "responses": [
         "El Centro de Atención Integral a Víctimas de Abuso Sexual (CAIVAS) es una unidad especializada de la Fiscalía General de la Nación que brinda atención integral a personas víctimas de delitos sexuales.\n\nEn estos centros se recibe la denuncia, se orienta a la víctima, se coordina la atención con Medicina Legal, psicología y otras instituciones, procurando reducir la revictimización durante el proceso."
+      ]
+    },
+    {
+      "tag": "requisitos_documentos_denuncia",
+      "patterns": [
+        "¿Qué documentos necesito para denunciar?",
+        "¿Qué debo llevar para la denuncia?",
+        "¿Me piden algún papel para denunciar?",
+        "Requisitos para presentar la denuncia",
+        "¿Necesito mi cédula para denunciar?",
+        "¿Qué papeles me van a pedir?",
+        "¿Cuáles son los requisitos legales?",
+        "¿Qué evidencias debo llevar?",
+        "¿Qué necesito llevar a la Fiscalía?"
+      ],
+      "responses": [
+        "Para presentar una denuncia formal, este es el paso a paso y lo que debes tener en cuenta al momento de acercarte a la institución:\n\n1. Documento de identidad: Es ideal presentar tu cédula de ciudadanía, tarjeta de identidad, pasaporte o documento equivalente. Sin embargo, si por alguna razón no lo tienes en el momento, las autoridades NO pueden negarse a recibir tu denuncia.\n\n2. Relato de los hechos: Te pedirán que cuentes lo sucedido. Es importante tratar de recordar fechas, lugares, horas y, si es posible, la identidad o descripción del agresor.\n\n3. Aportar evidencias (Opcional): Si cuentas con pruebas físicas o digitales (mensajes de texto, correos, audios, fotografías, prendas de vestir sin lavar, o un dictamen médico previo), puedes entregarlas. **Nota importante:** No es obligatorio tener pruebas para que te reciban la denuncia.\n\n4. Radicado: Al terminar, el funcionario debe entregarte un número de radicado (conocido en Colombia como número de SPOA). Guarda muy bien este número, ya que con él podrás hacerle seguimiento a tu caso.\n\nRecuerda que no necesitas contratar a un abogado para iniciar este trámite."
+      ]
+    },
+    {
+      "tag": "procedimiento_paso_a_paso",
+      "patterns": [
+        "¿Qué es lo primero que debo hacer?",
+        "Dime el paso a paso",
+        "¿Cuál es el procedimiento exacto?",
+        "¿Qué sigue después de ir a la Fiscalía?",
+        "¿Qué me van a preguntar cuando llegue?",
+        "¿Cómo es el proceso una vez que estoy ahí?",
+        "Quiero saber el orden de los pasos",
+        "¿Qué hacen cuando reporto el caso?",
+        "¿Cómo es el trámite por dentro?"
+      ],
+      "responses": [
+        "El proceso institucional suele seguir este orden:\n\n1. Recepción y declaración: Al llegar a la entidad (Fiscalía, URI o CAIVAS), te recibirá un funcionario para tomar tu entrevista o declaración. Te pedirán que cuentes los hechos con el mayor detalle posible.\n\n2. Asignación de radicado (SPOA): Te entregarán un número de caso. ¡Guárdalo muy bien! Es tu llave para hacerle seguimiento a la investigación.\n\n3. Remisión para valoración: Si es pertinente, te remitirán a Medicina Legal para una valoración física o psicológica, y a un centro de salud si necesitas atención médica que no hayas recibido aún.\n\n4. Medidas de protección: Si manifiestas estar en riesgo, el fiscal o la Comisaría de Familia pueden ordenar medidas de protección inmediatas a tu favor.\n\n5. Asignación de Fiscal: Un fiscal asumirá tu caso y ordenará a la policía judicial investigar y recolectar más pruebas para avanzar con el proceso."
       ]
     },
     {
