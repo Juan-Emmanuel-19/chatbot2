@@ -17,17 +17,14 @@ from spellchecker import SpellChecker
 print("Archivos en la carpeta:")
 print(os.listdir("."))
 
-# ===========================
 # DESCARGAS NLTK
-# ===========================
 
 nltk.download("punkt", quiet=True)
 nltk.download("wordnet", quiet=True)
 nltk.download("omw-1.4", quiet=True)
 
-# ===========================
 # CARGA DEL MODELO
-# ===========================
+
 
 lemmatizer = WordNetLemmatizer()
 corrector = SpellChecker(language="es")
@@ -43,9 +40,8 @@ print("Modelo cargado correctamente", flush=True)
 print("Input shape:", model.input_shape, flush=True)
 print("Output shape:", model.output_shape, flush=True)
 
-# ===========================
+
 # FUNCIONES NLP
-# ===========================
 
 def clean_up_sentence(sentence):
     
@@ -125,13 +121,9 @@ def predict_class(sentence, model):
     print("5. Despues del model.predict()", flush=True)
     
 
-# ===========================================
 # Mostrar TODAS las probabilidades
-# ===========================================
 
-    print("\n==============================")
     print("Probabilidades del modelo")
-    print("==============================")
 
     todas = []
 
@@ -144,11 +136,7 @@ def predict_class(sentence, model):
     for clase, prob in todas:
         print(f"{clase:35} -> {prob:.4f}")
 
-    print("==============================\n")
-
-# ===========================================
 # Seleccionar las mejores
-# ===========================================
 
     ERROR_THRESHOLD = 0.30
 
@@ -185,9 +173,7 @@ def get_response(ints, intents_json):
 
     return "Lo siento, no encontré una respuesta."
 
-# ===========================
 # FLASK
-# ===========================
 
 app = Flask(__name__)
 CORS(app)
@@ -233,7 +219,6 @@ def procesar_mensaje():
 
     texto_usuario = datos_entrantes["mensaje"]
     
-    print("========== INICIO MENSAJE ==========")
     print("Mensaje recibido:", texto_usuario)
 
     if texto_usuario == "iniciar_sesion":
@@ -271,10 +256,9 @@ def procesar_mensaje():
         print("Intent:", intencion_detectada)
         print("Probabilidad:", probabilidad)
 
-        # ==========================
-        # NIVEL ROJO
-        # ==========================
 
+
+        # NIVEL ROJO
         if intencion_detectada == "sos_inminente":
 
             payload = {
@@ -294,10 +278,7 @@ def procesar_mensaje():
                 ]
             }
 
-        # ==========================
         # NIVEL NARANJA
-        # ==========================
-
         elif intencion_detectada == "acoso_amenaza_incipiente":
 
             payload = {
@@ -317,10 +298,8 @@ def procesar_mensaje():
                 ]
             }
 
-        # ==========================
-        # SALUDO
-        # ==========================
 
+        # SALUDO
         elif intencion_detectada == "saludo":
 
             payload = {
@@ -330,11 +309,8 @@ def procesar_mensaje():
                 "bloquear_entrada_texto": False,
                 "botones_activos": []
             }
-
-        # ==========================
+            
         # DESPEDIDA
-        # ==========================
-
         elif intencion_detectada == "despedida":
 
             payload = {
@@ -354,10 +330,7 @@ def procesar_mensaje():
                 ]
             }
 
-        # ==========================
         # CUALQUIER OTRA CONSULTA
-        # ==========================
-
         else:
 
             payload = {
@@ -401,9 +374,7 @@ def procesar_mensaje():
         }), 500
 
 
-# ======================================================
 # INICIO DEL SERVIDOR
-# ======================================================
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
@@ -411,38 +382,3 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=port
     )
-
-
-# ======================================================
-# EJEMPLO DE CONSUMO DESDE FLUTTER
-# ======================================================
-
-#
-#Future<void> enviarMensaje(String mensaje) async {
-
- # final response = await http.post(
-  #  Uri.parse(
-   #   'https://TU-API.onrender.com/enviar_mensaje',
-    #),
-    #headers: {
-    #  "Content-Type": "application/json"
-    #},
-    #body: jsonEncode({
-     # "mensaje": mensaje
-    #}),
-  #);
-
-  #if (response.statusCode == 200) {
-
-   # final datos = jsonDecode(response.body);
-
-    #print(datos["respuesta_bot"]);
-
-  #} else {
-
-   # print(response.body);
-
-  #}
-
-#}
-""
